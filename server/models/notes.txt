@@ -1,0 +1,1 @@
+files here define schemas to match those in mongoose, for use here, or to be sent to the app

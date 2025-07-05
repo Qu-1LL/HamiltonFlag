@@ -1,0 +1,1 @@
+files here define endpoints for the app to call to, and links them to the functionalty in the controller folder
