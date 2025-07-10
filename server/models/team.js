@@ -1,6 +1,7 @@
 
-const { Player } = require('../models/player');
-const { Coach } = require('../models/coach');
+const { Player } = require('./player');
+const { Coach } = require('./coach');
+const { Lineup } = require('./lineup.js')
 
 class Team {
 
@@ -11,6 +12,7 @@ class Team {
         this.personnel = personnel
         this.personnelCount = personnel.length
         this.lineups = lineups
+        this.lineups.push(new Lineup(this))
     }
 
     getTeamName() {
@@ -42,7 +44,7 @@ class Team {
 
     removePersonnel(person) {
         this.personnel = this.personnel.filter((p) => {
-            p.id != person.id
+            p.name != person.name
         })
         this.personnelCount = this.personnel.length
     }
