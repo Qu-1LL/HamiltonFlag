@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:xlsx": "jest tests/importXLSX.test.js",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },

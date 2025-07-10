@@ -1,18 +1,16 @@
 
-import { Coach } from './coach.js'
-import { Player } from './player.js'
+const { Player } = require('../models/player');
+const { Coach } = require('../models/coach');
 
-export class Team {
+class Team {
 
-    constructor(teamName, players, personnel) { 
+    constructor(teamName, players, personnel, lineups = []) { 
         this.teamName = teamName
         this.players = players
         this.playerCount = players.length
         this.personnel = personnel
         this.personnelCount = personnel.length
-    
-        // if there are saved lineup preferences, that data should be stored here
-        // create a lineup object though
+        this.lineups = lineups
     }
 
     getTeamName() {
@@ -50,3 +48,5 @@ export class Team {
     }
 
 }
+
+module.exports = { Team }

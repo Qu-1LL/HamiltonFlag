@@ -1,13 +1,15 @@
 
-import { User } from './user.js'
+const { User } = require('./user.js')
 
-export class Player extends User {
+class Player extends User {
 
-    constructor(firstName, lastName, id, draftOrder, teamName = null, jerseyNumber = null) {
+    constructor(firstName, lastName, draftOrder, accountFirstName, accountLastName, teamName = null, jerseyNumber = null) {
+        super(firstName, lastName)
         this.teamName = teamName
         this.draftOrder = draftOrder
         this.jerseyNumber = jerseyNumber
-        super(firstName, lastName, id)
+        this.accountFirstName = accountFirstName
+        this.accountLastName = accountLastName
     }
 
     getTeamName() {
@@ -22,4 +24,14 @@ export class Player extends User {
         return this.jerseyNumber
     }
 
+    getAccountFirstName() {
+        return this.accountFirstName
+    }
+
+    getAccountLastName() {
+        return this.accountLastName
+    }
+
 }
+
+module.exports = { Player }

@@ -1,5 +1,5 @@
 
-export class Game {
+class Game {
 
     constructor(awayTeam, homeTeam, startTime, endTime, date, location, field) {
         this.awayTeam = awayTeam
@@ -127,3 +127,5 @@ export class Game {
     }
 
 }
+
+module.exports = { Game }

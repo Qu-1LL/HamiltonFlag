@@ -1,11 +1,12 @@
 
+//import random to get id
 
-export class User {
+class User {
 
-    constructor (firstName, lastName, id) {
+    constructor (firstName, lastName) {
         this.firstName = firstName
         this.lastName = lastName
-        this.id = id
+        this.id = 13
     }
 
     getFirstName() {
@@ -21,3 +22,5 @@ export class User {
     }
 
 }
+
+module.exports = { User }
