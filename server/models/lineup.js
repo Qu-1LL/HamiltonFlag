@@ -45,7 +45,7 @@ class Lineup {
         for (let i = 0; i < this.players.length; i++) {
             let topPlayer = 0
             for (let j = 0; j < this.players.length; i++) {
-                if (this.players[j].getDraftOrder() < topPlayer.getDraftOrder()) {
+                if (this.players[j].getDraftOrder() < this.players[topPlayer].getDraftOrder()) {
                     topPlayer = this.players[j].getDraftOrder()
                 }
             }
