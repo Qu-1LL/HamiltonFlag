@@ -3,6 +3,7 @@ const { Player } = require('../models/player');
 const { Coach } = require('../models/coach');
 const { ContactInfo } = require('../models/contactInfo');
 const { Team } = require('../models/team');
+const { Game } = require('../models/game.js')
 
 function xlsxToTeamsList(data) {
     let lineNum = 0
@@ -53,7 +54,35 @@ function xlsxToTeamsList(data) {
     return myTeams
 }
 
-module.exports = { xlsxToTeamsList }
+function xlsxToSchedule(data, teams) {
+
+    teamsDict = {}
+
+    for (let team of teams) {
+        teamsDict[team.getTeamName()] = team
+    }
+
+    gamesList = []
+
+    lineNum = 0
+
+    for (let line of data) {
+        gamesList.push(new Game(
+            teamsDict[line['Away Team']],
+            teamsDict[line['Home Team']],
+            Number(line['Round']),
+            line['Start Time'],
+            line['End Time'],
+            line['Date'],
+            line['Location'],
+            line['Field']
+        ))
+    }
+
+    return gamesList
+}
+
+module.exports = { xlsxToTeamsList, xlsxToSchedule }
 
 /* 
 User will upload xlsx file to react app

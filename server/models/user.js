@@ -1,12 +1,11 @@
 
-//import random to get id
+//use id system from mongoose
 
 class User {
 
     constructor (firstName, lastName) {
         this.firstName = firstName
         this.lastName = lastName
-        this.id = 13
     }
 
     getFirstName() {

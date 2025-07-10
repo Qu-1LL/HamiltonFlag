@@ -1,13 +1,9 @@
 
-import * as xlsx from 'xlsx'
-import * as multer from 'multer'
-import * as express from 'express'
+const xlsx = require('xlsx')
+const multer = require('multer')
+const express = require('express')
 
-// const xlsx = require('xlsx')
-// const multer = require('multer')
-// const express = require('express')
-
-import { UploadXLSX } from './controllers/handleExcel.js'
+const { xlsxToTeamsList } = require('./controllers/handleExcel.js')
 
 const app = express()
 const port = 3000

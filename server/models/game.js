@@ -1,9 +1,10 @@
 
 class Game {
 
-    constructor(awayTeam, homeTeam, startTime, endTime, date, location, field) {
+    constructor(awayTeam, homeTeam, round, startTime, endTime, date, location, field) {
         this.awayTeam = awayTeam
         this.homeTeam = homeTeam
+        this.round = round
         this.startTime = startTime
         this.endTime = endTime
         this.date = date
@@ -32,6 +33,10 @@ class Game {
 
     getHomeTeam() {
         return this.homeTeam
+    }
+
+    getRound() {
+        return this.round
     }
 
     getStartTime() {

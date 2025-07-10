@@ -3,9 +3,9 @@ const fs = require('fs')
 const xlsx = require('xlsx')
 const path = require('path')
 
-const { xlsxToTeamsList } = require('../controllers/handleExcel.js')
+const { xlsxToTeamsList, xlsxToSchedule } = require('../controllers/handleExcel.js')
 
-test('parses sample xlsx file', () => {
+test('parses sample roster and schedule xlsx file', () => {
     let filePath = path.join(__dirname, 'data/Minor_Division_Team_Roster_Report.xlsx')
 
     let workbook = xlsx.read(fs.readFileSync(filePath), { type: 'buffer' })
@@ -41,4 +41,28 @@ test('parses sample xlsx file', () => {
     expect(myContactInfo.getName()).toBe("Anthony Dipaola")
     expect(myContactInfo.getEmail()).toBe("dipaola75@gmail.com")
     expect(myContactInfo.getPhone()).toBe("609-532-5665")
+
+    filePath = path.join(__dirname, 'data/Minor_Regular_Season_Schedule.xlsx')
+
+    workbook = xlsx.read(fs.readFileSync(filePath), { type: 'buffer' })
+
+    data = xlsx.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]])
+
+    console.log(data)
+
+    let mySchedule = xlsxToSchedule(data, myRoster)
+
+    //checking teams are in the right place and identical
+    expect(mySchedule[0].getAwayTeam()).toEqual(myRoster[2])
+    expect(mySchedule[0].getHomeTeam()).toEqual(myRoster[0])
+    expect(mySchedule[15].getAwayTeam()).toEqual(myRoster[0])
+    expect(mySchedule[15].getHomeTeam()).toEqual(myRoster[3])
+
+    //checking individual data is correct
+    expect(mySchedule[0].getRound()).toBe(1)
+    expect(mySchedule[0].getStartTime()).toBe('19:00')
+    expect(mySchedule[0].getEndTime()).toBe('20:00')
+    expect(mySchedule[0].getLocation()).toBe('Field B')
+    expect(mySchedule[0].getField()).toBe('Field 1')
+
 })
