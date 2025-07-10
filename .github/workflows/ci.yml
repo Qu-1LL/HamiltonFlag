@@ -10,9 +10,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: server
+
     strategy:
       matrix:
-        node-version: [18.x]  # You can add other versions like 20.x, etc.
+        node-version: [18.18.x] 
 
     steps:
     - uses: actions/checkout@v4
