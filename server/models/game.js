@@ -25,6 +25,8 @@ class Game {
         this.homeTeamLineup = null
 
         this.score = {'home': 0, 'away': 0}
+        this.officials = []
+        this.officialCount = 0
     }
 
     getAwayTeam() {
@@ -129,6 +131,28 @@ class Game {
 
     setProgress(progress) {
         this.progress = progress
+    }
+
+    //officials
+    getOfficials() {
+        return this.officials
+    }
+    
+    getOfficialCount() {
+        return this.officialCount
+    }
+
+    addOfficial(official) {
+        this.removeOfficial(official)
+        this.officials.push(official)
+        this.officialCount = this.officials.length
+    }
+
+    removeOfficial(official) {
+        this.officials = this.officials.filter((o) => {
+            o.name != official.name
+        })
+        this.officialCount = this.officials.length
     }
 
 }

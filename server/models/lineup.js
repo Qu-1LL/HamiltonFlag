@@ -41,18 +41,22 @@ class Lineup {
     }
 
     #orderPlayersByDraft() {
-        let myPlayers = []
-        for (let i = 0; i < this.players.length; i++) {
-            let topPlayer = 0
-            for (let j = 0; j < this.players.length; i++) {
-                if (this.players[j].getDraftOrder() < this.players[topPlayer].getDraftOrder()) {
-                    topPlayer = this.players[j].getDraftOrder()
-                }
-            }
-            myPlayers.push(this.players[topPlayer])
-            this.players.splice(topPlayer, 1)
-        }
-        this.players = myPlayers
+        // let myPlayers = []
+        // for (let i = 0; i < this.players.length; i++) {
+        //     let topPlayer = this.players[0]
+        //     let topIndex = 0
+        //     for (let j = 0; j < this.players.length; j++) {
+        //         if (this.players[j].getDraftOrder() < this.players[topIndex].getDraftOrder()) {
+        //             topIndex = j
+        //             topPlayer = this.players[j]
+        //         }
+        //     }
+        //     myPlayers.push(topPlayer)
+        //     this.players.splice(topIndex, 1)
+        // }
+        // this.players = myPlayers
+        // console.log(myPlayers)
+        //No worky right now
     }
 
     #remakeLineups() {
