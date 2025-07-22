@@ -1,0 +1,96 @@
+@import '../styles/colors.css';
+
+.game-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 97%;
+}
+
+.game-card.hover {
+  background-color: #f0f4ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-teams {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-bar {
+  width: 8px;
+  height: 6vh;
+  border-radius: 4px;
+}
+
+.status-bar.past {
+  background-color: #7d8491;
+}
+
+.status-bar.today {
+  background-color: #2cbf4a;
+}
+
+.status-bar.future {
+  background-color: #3a81f3;
+}
+
+.teams {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #1e1e1e;
+}
+
+.vs {
+  color: #999;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.card-datetime {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: right;
+}
+
+.card-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.date-month {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.card-time {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  width: 6.5vw;
+}

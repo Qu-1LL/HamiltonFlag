@@ -7,7 +7,7 @@ class Schedule {
         this.schedule = schedule
     }
 
-    //add a handful of functions for manipulating the schedule
+    //add a handful of functions for manipulating the schedule in case of rain outs etc.
 
 }
 

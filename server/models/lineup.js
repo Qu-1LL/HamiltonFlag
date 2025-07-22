@@ -5,14 +5,15 @@ class Lineup {
 
     constructor(team) {
         this.name = 'new lineup'
-        this.players = team.getPlayers()
+        this.players = [...team.getPlayers()]
         this.attendence = this.players.reduce((team, player) => {
             team[player.getDraftOrder()] = true
             //draft order will function as id for now
             return team
         }, {})
         //creating lineups
-        this.#orderPlayersByDraft()
+        this.players.sort((a, b) => a.getDraftOrder() - b.getDraftOrder());
+        console.log(this.players)
         this.firstOffense = this.players.slice(0,5)
         this.firstDefense = this.players.slice(5,this.players.length)
         this.secondOffense = this.players.slice(5,this.players.length)
@@ -38,25 +39,6 @@ class Lineup {
     setAttendence(attendence) {
         this.attendence = attendence
         this.#remakeLineups() 
-    }
-
-    #orderPlayersByDraft() {
-        // let myPlayers = []
-        // for (let i = 0; i < this.players.length; i++) {
-        //     let topPlayer = this.players[0]
-        //     let topIndex = 0
-        //     for (let j = 0; j < this.players.length; j++) {
-        //         if (this.players[j].getDraftOrder() < this.players[topIndex].getDraftOrder()) {
-        //             topIndex = j
-        //             topPlayer = this.players[j]
-        //         }
-        //     }
-        //     myPlayers.push(topPlayer)
-        //     this.players.splice(topIndex, 1)
-        // }
-        // this.players = myPlayers
-        // console.log(myPlayers)
-        //No worky right now
     }
 
     #remakeLineups() {

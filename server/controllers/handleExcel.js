@@ -33,7 +33,7 @@ function xlsxToTeamsList(data) {
         //each loop creates a new player
         while(Object.values(data[lineNum]).length > 1 ) {
             let info = Object.values(data[lineNum])
-            players.push(new Player(info[1],info[4],info[0],info[2],info[3],teamName))
+            players.push(new Player(info[4],info[1],info[0],info[2],info[3],teamName))
             lineNum++
         }
 

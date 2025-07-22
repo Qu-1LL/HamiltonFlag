@@ -27,8 +27,8 @@ test('parses sample roster and schedule xlsx file', () => {
 
     //checking first player
     let myPlayer = myRoster[0].getPlayers()[0]
-    expect(myPlayer.getFirstName()).toBe("Alexander")
-    expect(myPlayer.getLastName()).toBe("Royal")
+    expect(myPlayer.getFirstName()).toBe("Royal")
+    expect(myPlayer.getLastName()).toBe("Alexander")
     expect(myPlayer.getAccountFirstName()).toBe("John")
     expect(myPlayer.getAccountLastName()).toBe("Alexander")
 
@@ -47,8 +47,6 @@ test('parses sample roster and schedule xlsx file', () => {
     workbook = xlsx.read(fs.readFileSync(filePath), { type: 'buffer' })
 
     data = xlsx.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]])
-
-    console.log(data)
 
     let mySchedule = xlsxToSchedule(data, myRoster)
 

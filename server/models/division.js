@@ -3,8 +3,19 @@
 
 class Division {
 
-    constructor() {
-        
+    constructor(teams, schedule) {
+        this.teams = teams
+        this.schedule = schedule
+    }
+
+    getTeams() {
+        return this.teams
+    }
+
+    getSchedule() {
+        return this.schedule
     }
 
 }
+
+module.exports = { Division }
