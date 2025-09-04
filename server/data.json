@@ -1,0 +1,5583 @@
+{
+  "Admin": [
+    {
+      "id": 0,
+      "firstName": "Arthur",
+      "lastName": "Ford",
+      "username": "Arthur",
+      "password": "password",
+      "title": "Admin",
+      "contactInfo": null
+    }
+  ],
+  "seasons": {
+    "SPRING 25": {
+      "divisions": {
+        "Rookie": {
+          "teams": [
+            {
+              "id": 179,
+              "teamName": "Dolphins",
+              "players": [
+                {
+                  "id": 170,
+                  "firstName": "Anthony",
+                  "lastName": "Beacham",
+                  "username": "Anthony",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "1",
+                  "jerseyNumber": 170,
+                  "accountFirstName": "Amaris",
+                  "accountLastName": "Horton"
+                },
+                {
+                  "id": 171,
+                  "firstName": "Orion",
+                  "lastName": "Blum",
+                  "username": "Orion",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "2",
+                  "jerseyNumber": 171,
+                  "accountFirstName": "Ciara",
+                  "accountLastName": "Mckaskill"
+                },
+                {
+                  "id": 172,
+                  "firstName": "Kyro",
+                  "lastName": "Cruz",
+                  "username": "Kyro",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "3",
+                  "jerseyNumber": 172,
+                  "accountFirstName": "Wilmary",
+                  "accountLastName": "Andujar-Cruz"
+                },
+                {
+                  "id": 173,
+                  "firstName": "Tylor",
+                  "lastName": "Gittens",
+                  "username": "Tylor",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "4",
+                  "jerseyNumber": 173,
+                  "accountFirstName": "Tianna",
+                  "accountLastName": "Williams"
+                },
+                {
+                  "id": 174,
+                  "firstName": "Mateo",
+                  "lastName": "Lopez",
+                  "username": "Mateo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "5",
+                  "jerseyNumber": 174,
+                  "accountFirstName": "Rudolph",
+                  "accountLastName": "Lopez"
+                },
+                {
+                  "id": 175,
+                  "firstName": "Joshua",
+                  "lastName": "Manion Jr",
+                  "username": "Joshua",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "6",
+                  "jerseyNumber": 175,
+                  "accountFirstName": "Joshua",
+                  "accountLastName": "Manion sr"
+                },
+                {
+                  "id": 176,
+                  "firstName": "Treyshawn",
+                  "lastName": "Stevens",
+                  "username": "Treyshawn",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "7",
+                  "jerseyNumber": 176,
+                  "accountFirstName": "Noella",
+                  "accountLastName": "Ruiz"
+                },
+                {
+                  "id": 177,
+                  "firstName": "Walter",
+                  "lastName": "Williams",
+                  "username": "Walter",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Dolphins",
+                  "draftOrder": "8",
+                  "jerseyNumber": 177,
+                  "accountFirstName": "Brian",
+                  "accountLastName": "Williams"
+                }
+              ],
+              "playerCount": 8,
+              "personnel": [
+                {
+                  "id": 178,
+                  "firstName": "Joshua",
+                  "lastName": "Manion sr",
+                  "username": "Joshua",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 178,
+                  "contactInfo": {
+                    "id": 178,
+                    "name": "Joshua Manion sr",
+                    "email": "jmanion0711@gmail.com",
+                    "phone": "609-686-6097"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177
+                  ],
+                  "orderDict": {
+                    "170": "1",
+                    "171": "2",
+                    "172": "3",
+                    "173": "4",
+                    "174": "5",
+                    "175": "6",
+                    "176": "7",
+                    "177": "8"
+                  },
+                  "attendence": {
+                    "170": true,
+                    "171": true,
+                    "172": true,
+                    "173": true,
+                    "174": true,
+                    "175": true,
+                    "176": true,
+                    "177": true
+                  },
+                  "firstOffense": [
+                    170,
+                    171,
+                    172,
+                    173,
+                    174
+                  ],
+                  "firstDefense": [
+                    175,
+                    176,
+                    177
+                  ],
+                  "secondOffense": [
+                    175,
+                    176,
+                    177
+                  ],
+                  "secondDefense": [
+                    170,
+                    171,
+                    172,
+                    173,
+                    174
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 188,
+              "teamName": "Falcons",
+              "players": [
+                {
+                  "id": 180,
+                  "firstName": "Andre",
+                  "lastName": "Alford Jr",
+                  "username": "Andre",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "1",
+                  "jerseyNumber": 180,
+                  "accountFirstName": "Desiree",
+                  "accountLastName": "Lilly"
+                },
+                {
+                  "id": 181,
+                  "firstName": "Nicola",
+                  "lastName": "Archer",
+                  "username": "Nicola",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "2",
+                  "jerseyNumber": 181,
+                  "accountFirstName": "Bernadina",
+                  "accountLastName": "Creo"
+                },
+                {
+                  "id": 182,
+                  "firstName": "Franco",
+                  "lastName": "DeLuca",
+                  "username": "Franco",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "3",
+                  "jerseyNumber": 182,
+                  "accountFirstName": "Stephen",
+                  "accountLastName": "DeLuca"
+                },
+                {
+                  "id": 183,
+                  "firstName": "Robert",
+                  "lastName": "Meseroll",
+                  "username": "Robert",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "4",
+                  "jerseyNumber": 183,
+                  "accountFirstName": "LISA",
+                  "accountLastName": "MESEROLL"
+                },
+                {
+                  "id": 184,
+                  "firstName": "Jaden",
+                  "lastName": "Richardson",
+                  "username": "Jaden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "5",
+                  "jerseyNumber": 184,
+                  "accountFirstName": "Charles",
+                  "accountLastName": "Richardson"
+                },
+                {
+                  "id": 185,
+                  "firstName": "AJay",
+                  "lastName": "Sequinot",
+                  "username": "AJay",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "6",
+                  "jerseyNumber": 185,
+                  "accountFirstName": "Maria",
+                  "accountLastName": "Sequinot"
+                },
+                {
+                  "id": 186,
+                  "firstName": "Jace",
+                  "lastName": "Smith",
+                  "username": "Jace",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "7",
+                  "jerseyNumber": 186,
+                  "accountFirstName": "Jayden",
+                  "accountLastName": "Smith"
+                }
+              ],
+              "playerCount": 7,
+              "personnel": [
+                {
+                  "id": 187,
+                  "firstName": "Scott",
+                  "lastName": "Worland",
+                  "username": "Scott",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 187,
+                  "contactInfo": {
+                    "id": 187,
+                    "name": "Scott Worland",
+                    "email": "scott.worland@gmail.com",
+                    "phone": "732-261-8257"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186
+                  ],
+                  "orderDict": {
+                    "180": "1",
+                    "181": "2",
+                    "182": "3",
+                    "183": "4",
+                    "184": "5",
+                    "185": "6",
+                    "186": "7"
+                  },
+                  "attendence": {
+                    "180": true,
+                    "181": true,
+                    "182": true,
+                    "183": true,
+                    "184": true,
+                    "185": true,
+                    "186": true
+                  },
+                  "firstOffense": [
+                    180,
+                    181,
+                    182,
+                    183,
+                    184
+                  ],
+                  "firstDefense": [
+                    185,
+                    186
+                  ],
+                  "secondOffense": [
+                    185,
+                    186
+                  ],
+                  "secondDefense": [
+                    180,
+                    181,
+                    182,
+                    183,
+                    184
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 199,
+              "teamName": "Jets",
+              "players": [
+                {
+                  "id": 189,
+                  "firstName": "Teddy",
+                  "lastName": "Alboum",
+                  "username": "Teddy",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "1",
+                  "jerseyNumber": 189,
+                  "accountFirstName": "Stacey",
+                  "accountLastName": "Alboum"
+                },
+                {
+                  "id": 190,
+                  "firstName": "Elijah",
+                  "lastName": "Colon",
+                  "username": "Elijah",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "2",
+                  "jerseyNumber": 190,
+                  "accountFirstName": "Ashley",
+                  "accountLastName": "Colon"
+                },
+                {
+                  "id": 191,
+                  "firstName": "Mason",
+                  "lastName": "Gurry",
+                  "username": "Mason",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "3",
+                  "jerseyNumber": 191,
+                  "accountFirstName": "Jacqueline",
+                  "accountLastName": "Gurry"
+                },
+                {
+                  "id": 192,
+                  "firstName": "Ryan",
+                  "lastName": "Gurry",
+                  "username": "Ryan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "4",
+                  "jerseyNumber": 192,
+                  "accountFirstName": "Jacqueline",
+                  "accountLastName": "Gurry"
+                },
+                {
+                  "id": 193,
+                  "firstName": "Marlon",
+                  "lastName": "Jiron",
+                  "username": "Marlon",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "5",
+                  "jerseyNumber": 193,
+                  "accountFirstName": "Marlon",
+                  "accountLastName": "Jiron"
+                },
+                {
+                  "id": 194,
+                  "firstName": "Gavin",
+                  "lastName": "Kroslin",
+                  "username": "Gavin",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "6",
+                  "jerseyNumber": 194,
+                  "accountFirstName": "Ryan",
+                  "accountLastName": "Kroslin"
+                },
+                {
+                  "id": 195,
+                  "firstName": "Manuel",
+                  "lastName": "Melvin",
+                  "username": "Manuel",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "7",
+                  "jerseyNumber": 195,
+                  "accountFirstName": "Jahaira",
+                  "accountLastName": "Olivero"
+                },
+                {
+                  "id": 196,
+                  "firstName": "Kareem",
+                  "lastName": "Sulaimon",
+                  "username": "Kareem",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Jets",
+                  "draftOrder": "8",
+                  "jerseyNumber": 196,
+                  "accountFirstName": "Atiya",
+                  "accountLastName": "Sulaimon"
+                }
+              ],
+              "playerCount": 8,
+              "personnel": [
+                {
+                  "id": 197,
+                  "firstName": "Scott",
+                  "lastName": "Alboum",
+                  "username": "Scott",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 197,
+                  "contactInfo": {
+                    "id": 197,
+                    "name": "Scott Alboum",
+                    "email": "scottalboum@yahoo.com",
+                    "phone": "609-333-3333"
+                  }
+                },
+                {
+                  "id": 198,
+                  "firstName": "Stacey",
+                  "lastName": "Alboum",
+                  "username": "Stacey",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 198,
+                  "contactInfo": {
+                    "id": 198,
+                    "name": "Stacey Alboum",
+                    "email": "sdschulman@gmail.com",
+                    "phone": "609-947-2753"
+                  }
+                }
+              ],
+              "personnelCount": 2,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196
+                  ],
+                  "orderDict": {
+                    "189": "1",
+                    "190": "2",
+                    "191": "3",
+                    "192": "4",
+                    "193": "5",
+                    "194": "6",
+                    "195": "7",
+                    "196": "8"
+                  },
+                  "attendence": {
+                    "189": true,
+                    "190": true,
+                    "191": true,
+                    "192": true,
+                    "193": true,
+                    "194": true,
+                    "195": true,
+                    "196": true
+                  },
+                  "firstOffense": [
+                    189,
+                    190,
+                    191,
+                    192,
+                    193
+                  ],
+                  "firstDefense": [
+                    194,
+                    195,
+                    196
+                  ],
+                  "secondOffense": [
+                    194,
+                    195,
+                    196
+                  ],
+                  "secondDefense": [
+                    189,
+                    190,
+                    191,
+                    192,
+                    193
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 208,
+              "teamName": "Lions",
+              "players": [
+                {
+                  "id": 200,
+                  "firstName": "Elliott",
+                  "lastName": "Fajardo",
+                  "username": "Elliott",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "1",
+                  "jerseyNumber": 200,
+                  "accountFirstName": "Rebecca",
+                  "accountLastName": "Fajardo"
+                },
+                {
+                  "id": 201,
+                  "firstName": "Andrew",
+                  "lastName": "Gager",
+                  "username": "Andrew",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "2",
+                  "jerseyNumber": 201,
+                  "accountFirstName": "Amanda",
+                  "accountLastName": "Gager"
+                },
+                {
+                  "id": 202,
+                  "firstName": "Tyler",
+                  "lastName": "Pantages",
+                  "username": "Tyler",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "3",
+                  "jerseyNumber": 202,
+                  "accountFirstName": "Svenja",
+                  "accountLastName": "Pantages"
+                },
+                {
+                  "id": 203,
+                  "firstName": "Sloane",
+                  "lastName": "Seidman",
+                  "username": "Sloane",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "4",
+                  "jerseyNumber": 203,
+                  "accountFirstName": "Jennifer",
+                  "accountLastName": "Seidman"
+                },
+                {
+                  "id": 204,
+                  "firstName": "Lucas",
+                  "lastName": "Smith",
+                  "username": "Lucas",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "5",
+                  "jerseyNumber": 204,
+                  "accountFirstName": "Carly",
+                  "accountLastName": "Smith"
+                },
+                {
+                  "id": 205,
+                  "firstName": "Blake",
+                  "lastName": "Uchrin",
+                  "username": "Blake",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "6",
+                  "jerseyNumber": 205,
+                  "accountFirstName": "Michael",
+                  "accountLastName": "Uchrin"
+                },
+                {
+                  "id": 206,
+                  "firstName": "Liam",
+                  "lastName": "Vaca",
+                  "username": "Liam",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Lions",
+                  "draftOrder": "7",
+                  "jerseyNumber": 206,
+                  "accountFirstName": "Mauricio",
+                  "accountLastName": "Vaca"
+                }
+              ],
+              "playerCount": 7,
+              "personnel": [
+                {
+                  "id": 207,
+                  "firstName": "Michael",
+                  "lastName": "Uchrin",
+                  "username": "Michael",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 207,
+                  "contactInfo": {
+                    "id": 207,
+                    "name": "Michael Uchrin",
+                    "email": "uchrin@yahoo.com",
+                    "phone": "609-477-4522"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206
+                  ],
+                  "orderDict": {
+                    "200": "1",
+                    "201": "2",
+                    "202": "3",
+                    "203": "4",
+                    "204": "5",
+                    "205": "6",
+                    "206": "7"
+                  },
+                  "attendence": {
+                    "200": true,
+                    "201": true,
+                    "202": true,
+                    "203": true,
+                    "204": true,
+                    "205": true,
+                    "206": true
+                  },
+                  "firstOffense": [
+                    200,
+                    201,
+                    202,
+                    203,
+                    204
+                  ],
+                  "firstDefense": [
+                    205,
+                    206
+                  ],
+                  "secondOffense": [
+                    205,
+                    206
+                  ],
+                  "secondDefense": [
+                    200,
+                    201,
+                    202,
+                    203,
+                    204
+                  ]
+                }
+              ]
+            }
+          ],
+          "schedule": {
+            "schedule": [
+              {
+                "id": 209,
+                "awayTeam": 188,
+                "homeTeam": 179,
+                "round": 1,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-04-18T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 210,
+                "awayTeam": 208,
+                "homeTeam": 199,
+                "round": 1,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-04-18T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 211,
+                "awayTeam": 199,
+                "homeTeam": 188,
+                "round": 2,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 212,
+                "awayTeam": 179,
+                "homeTeam": 208,
+                "round": 2,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 213,
+                "awayTeam": 188,
+                "homeTeam": 208,
+                "round": 3,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  1,
+                  3,
+                  5
+                ],
+                "officialCount": 4
+              },
+              {
+                "id": 214,
+                "awayTeam": 199,
+                "homeTeam": 179,
+                "round": 3,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  8,
+                  9,
+                  10
+                ],
+                "officialCount": 1
+              },
+              {
+                "id": 215,
+                "awayTeam": 208,
+                "homeTeam": 199,
+                "round": 4,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 216,
+                "awayTeam": 179,
+                "homeTeam": 188,
+                "round": 4,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 217,
+                "awayTeam": 199,
+                "homeTeam": 188,
+                "round": 5,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-05T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 218,
+                "awayTeam": 208,
+                "homeTeam": 179,
+                "round": 5,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-12T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 219,
+                "awayTeam": 188,
+                "homeTeam": 208,
+                "round": 6,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 220,
+                "awayTeam": 179,
+                "homeTeam": 199,
+                "round": 6,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 221,
+                "awayTeam": 208,
+                "homeTeam": 199,
+                "round": 7,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 222,
+                "awayTeam": 188,
+                "homeTeam": 179,
+                "round": 7,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 223,
+                "awayTeam": 199,
+                "homeTeam": 188,
+                "round": 8,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-13T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "189": false,
+                  "190": false,
+                  "191": false,
+                  "192": false,
+                  "193": false,
+                  "194": false,
+                  "195": false,
+                  "196": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "180": false,
+                  "181": false,
+                  "182": false,
+                  "183": false,
+                  "184": false,
+                  "185": false,
+                  "186": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 224,
+                "awayTeam": 179,
+                "homeTeam": 208,
+                "round": 8,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-06-13T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "170": false,
+                  "171": false,
+                  "172": false,
+                  "173": false,
+                  "174": false,
+                  "175": false,
+                  "176": false,
+                  "177": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "200": false,
+                  "201": false,
+                  "202": false,
+                  "203": false,
+                  "204": false,
+                  "205": false,
+                  "206": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              }
+            ]
+          }
+        },
+        "Minor": {
+          "teams": [
+            {
+              "id": 24,
+              "teamName": "Bills",
+              "players": [
+                {
+                  "id": 11,
+                  "firstName": "Royal",
+                  "lastName": "Alexander",
+                  "username": "Royal",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "1",
+                  "jerseyNumber": 11,
+                  "accountFirstName": "John",
+                  "accountLastName": "Alexander"
+                },
+                {
+                  "id": 12,
+                  "firstName": "Miles",
+                  "lastName": "Algaze",
+                  "username": "Miles",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "2",
+                  "jerseyNumber": 12,
+                  "accountFirstName": "Claudia",
+                  "accountLastName": "Algaze"
+                },
+                {
+                  "id": 13,
+                  "firstName": "Ayden",
+                  "lastName": "Bennett",
+                  "username": "Ayden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "3",
+                  "jerseyNumber": 13,
+                  "accountFirstName": "Alicia",
+                  "accountLastName": "Sewell"
+                },
+                {
+                  "id": 14,
+                  "firstName": "Kaycen",
+                  "lastName": "Cecil",
+                  "username": "Kaycen",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "4",
+                  "jerseyNumber": 14,
+                  "accountFirstName": "Engelica",
+                  "accountLastName": "Cecil"
+                },
+                {
+                  "id": 15,
+                  "firstName": "Nolan",
+                  "lastName": "Chiavarone",
+                  "username": "Nolan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "5",
+                  "jerseyNumber": 15,
+                  "accountFirstName": "Katie",
+                  "accountLastName": "Chiavarone"
+                },
+                {
+                  "id": 16,
+                  "firstName": "Jacob",
+                  "lastName": "Krisza",
+                  "username": "Jacob",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "6",
+                  "jerseyNumber": 16,
+                  "accountFirstName": "Sarah",
+                  "accountLastName": "Krisza"
+                },
+                {
+                  "id": 17,
+                  "firstName": "Donovan",
+                  "lastName": "Ramos Jr",
+                  "username": "Donovan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "7",
+                  "jerseyNumber": 17,
+                  "accountFirstName": "Donovan",
+                  "accountLastName": "Ramos"
+                },
+                {
+                  "id": 18,
+                  "firstName": "Zachary",
+                  "lastName": "Schneiweiss",
+                  "username": "Zachary",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "8",
+                  "jerseyNumber": 18,
+                  "accountFirstName": "Ashley",
+                  "accountLastName": "Schneiweiss"
+                },
+                {
+                  "id": 19,
+                  "firstName": "Mason",
+                  "lastName": "Smith",
+                  "username": "Mason",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "9",
+                  "jerseyNumber": 19,
+                  "accountFirstName": "David",
+                  "accountLastName": "Smith"
+                },
+                {
+                  "id": 20,
+                  "firstName": "Ihsan",
+                  "lastName": "Waller",
+                  "username": "Ihsan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "10",
+                  "jerseyNumber": 20,
+                  "accountFirstName": "Russ",
+                  "accountLastName": "Waller"
+                },
+                {
+                  "id": 21,
+                  "firstName": "Josiah",
+                  "lastName": "Ward",
+                  "username": "Josiah",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Bills",
+                  "draftOrder": "11",
+                  "jerseyNumber": 21,
+                  "accountFirstName": "Selina",
+                  "accountLastName": "Ward"
+                }
+              ],
+              "playerCount": 11,
+              "personnel": [
+                {
+                  "id": 22,
+                  "firstName": "Chris",
+                  "lastName": "Krisza",
+                  "username": "Chris",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 22,
+                  "contactInfo": {
+                    "id": 22,
+                    "name": "Chris Krisza",
+                    "email": "cmkdew@yahoo.com",
+                    "phone": "609-915-1337"
+                  }
+                },
+                {
+                  "id": 23,
+                  "firstName": "Russ",
+                  "lastName": "Waller",
+                  "username": "Russ",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 23,
+                  "contactInfo": {
+                    "id": 23,
+                    "name": "Russ Waller",
+                    "email": "xrusswall@gmail.com",
+                    "phone": "202-853-1041"
+                  }
+                }
+              ],
+              "personnelCount": 2,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "orderDict": {
+                    "11": "1",
+                    "12": "2",
+                    "13": "3",
+                    "14": "4",
+                    "15": "5",
+                    "16": "6",
+                    "17": "7",
+                    "18": "8",
+                    "19": "9",
+                    "20": "10",
+                    "21": "11"
+                  },
+                  "attendence": {
+                    "11": true,
+                    "12": true,
+                    "13": true,
+                    "14": true,
+                    "15": true,
+                    "16": true,
+                    "17": true,
+                    "18": true,
+                    "19": true,
+                    "20": true,
+                    "21": true
+                  },
+                  "firstOffense": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "firstDefense": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "secondOffense": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                  ],
+                  "secondDefense": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 36,
+              "teamName": "Commanders",
+              "players": [
+                {
+                  "id": 25,
+                  "firstName": "Gabriel",
+                  "lastName": "Calderon",
+                  "username": "Gabriel",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "1",
+                  "jerseyNumber": 25,
+                  "accountFirstName": "Angela",
+                  "accountLastName": "Calderon"
+                },
+                {
+                  "id": 26,
+                  "firstName": "Vanessa",
+                  "lastName": "Chapman",
+                  "username": "Vanessa",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "2",
+                  "jerseyNumber": 26,
+                  "accountFirstName": "Michele",
+                  "accountLastName": "Corsetti"
+                },
+                {
+                  "id": 27,
+                  "firstName": "Noah",
+                  "lastName": "DeSimone",
+                  "username": "Noah",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "3",
+                  "jerseyNumber": 27,
+                  "accountFirstName": "Alison",
+                  "accountLastName": "De Simone"
+                },
+                {
+                  "id": 28,
+                  "firstName": "Carson",
+                  "lastName": "Gojaniuk",
+                  "username": "Carson",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "4",
+                  "jerseyNumber": 28,
+                  "accountFirstName": "Christopher",
+                  "accountLastName": "Gojaniuk"
+                },
+                {
+                  "id": 29,
+                  "firstName": "Luca",
+                  "lastName": "Innocenzi",
+                  "username": "Luca",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "5",
+                  "jerseyNumber": 29,
+                  "accountFirstName": "MEGHAN",
+                  "accountLastName": "SHAW"
+                },
+                {
+                  "id": 30,
+                  "firstName": "Enzo",
+                  "lastName": "Mastroianni",
+                  "username": "Enzo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "6",
+                  "jerseyNumber": 30,
+                  "accountFirstName": "Enzo",
+                  "accountLastName": "Mastroianni"
+                },
+                {
+                  "id": 31,
+                  "firstName": "Travis",
+                  "lastName": "Montenegro",
+                  "username": "Travis",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "7",
+                  "jerseyNumber": 31,
+                  "accountFirstName": "Kristi",
+                  "accountLastName": "Montenegro"
+                },
+                {
+                  "id": 32,
+                  "firstName": "Victoria",
+                  "lastName": "Rodriguez",
+                  "username": "Victoria",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "8",
+                  "jerseyNumber": 32,
+                  "accountFirstName": "Megan",
+                  "accountLastName": "Swal"
+                },
+                {
+                  "id": 33,
+                  "firstName": "Logan",
+                  "lastName": "Singh",
+                  "username": "Logan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "9",
+                  "jerseyNumber": 33,
+                  "accountFirstName": "Sudesh",
+                  "accountLastName": "Singh"
+                },
+                {
+                  "id": 34,
+                  "firstName": "Jackson",
+                  "lastName": "Tavlaris",
+                  "username": "Jackson",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "10",
+                  "jerseyNumber": 34,
+                  "accountFirstName": "Jessica",
+                  "accountLastName": "Tavlaris"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 35,
+                  "firstName": "Christopher",
+                  "lastName": "Gojaniuk",
+                  "username": "Christopher",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 35,
+                  "contactInfo": {
+                    "id": 35,
+                    "name": "Christopher Gojaniuk",
+                    "email": "cgojaniuk@gmail.com",
+                    "phone": "609-540-1814"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "orderDict": {
+                    "25": "1",
+                    "26": "2",
+                    "27": "3",
+                    "28": "4",
+                    "29": "5",
+                    "30": "6",
+                    "31": "7",
+                    "32": "8",
+                    "33": "9",
+                    "34": "10"
+                  },
+                  "attendence": {
+                    "25": true,
+                    "26": true,
+                    "27": true,
+                    "28": true,
+                    "29": true,
+                    "30": true,
+                    "31": true,
+                    "32": true,
+                    "33": true,
+                    "34": true
+                  },
+                  "firstOffense": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ],
+                  "firstDefense": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "secondOffense": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34
+                  ],
+                  "secondDefense": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "teamName": "Falcons",
+              "players": [
+                {
+                  "id": 37,
+                  "firstName": "Liliana",
+                  "lastName": "AMMIRATI",
+                  "username": "Liliana",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "1",
+                  "jerseyNumber": 37,
+                  "accountFirstName": "Louis",
+                  "accountLastName": "Ammirati"
+                },
+                {
+                  "id": 38,
+                  "firstName": "Olivia",
+                  "lastName": "AMMIRATI",
+                  "username": "Olivia",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "2",
+                  "jerseyNumber": 38,
+                  "accountFirstName": "Louis",
+                  "accountLastName": "Ammirati"
+                },
+                {
+                  "id": 39,
+                  "firstName": "Karl",
+                  "lastName": "Bergin",
+                  "username": "Karl",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "3",
+                  "jerseyNumber": 39,
+                  "accountFirstName": "Karl",
+                  "accountLastName": "Bergin"
+                },
+                {
+                  "id": 40,
+                  "firstName": "Garrett",
+                  "lastName": "Brogan",
+                  "username": "Garrett",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "4",
+                  "jerseyNumber": 40,
+                  "accountFirstName": "Lisa",
+                  "accountLastName": "Brogan"
+                },
+                {
+                  "id": 41,
+                  "firstName": "Joseph",
+                  "lastName": "Cromwell",
+                  "username": "Joseph",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "5",
+                  "jerseyNumber": 41,
+                  "accountFirstName": "Alicia",
+                  "accountLastName": "Cromwell"
+                },
+                {
+                  "id": 42,
+                  "firstName": "Bryce",
+                  "lastName": "Hergenrother",
+                  "username": "Bryce",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "6",
+                  "jerseyNumber": 42,
+                  "accountFirstName": "Jason",
+                  "accountLastName": "Hergenrother"
+                },
+                {
+                  "id": 43,
+                  "firstName": "Joseph",
+                  "lastName": "Pollard",
+                  "username": "Joseph",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "7",
+                  "jerseyNumber": 43,
+                  "accountFirstName": "Brittany",
+                  "accountLastName": "Pollard"
+                },
+                {
+                  "id": 44,
+                  "firstName": "Jayden",
+                  "lastName": "Smith",
+                  "username": "Jayden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "8",
+                  "jerseyNumber": 44,
+                  "accountFirstName": "Jayden",
+                  "accountLastName": "Smith"
+                },
+                {
+                  "id": 45,
+                  "firstName": "Khalil",
+                  "lastName": "Sulaimon",
+                  "username": "Khalil",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "9",
+                  "jerseyNumber": 45,
+                  "accountFirstName": "Atiya",
+                  "accountLastName": "Sulaimon"
+                },
+                {
+                  "id": 46,
+                  "firstName": "Joseph",
+                  "lastName": "Van Gorden",
+                  "username": "Joseph",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Falcons",
+                  "draftOrder": "10",
+                  "jerseyNumber": 46,
+                  "accountFirstName": "Nikki",
+                  "accountLastName": "Van Gorden"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 47,
+                  "firstName": "Patrick",
+                  "lastName": "Brogan",
+                  "username": "Patrick",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 47,
+                  "contactInfo": {
+                    "id": 47,
+                    "name": "Patrick Brogan",
+                    "email": "patrick.brogan@holman.com",
+                    "phone": "609-923-1252"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "orderDict": {
+                    "37": "1",
+                    "38": "2",
+                    "39": "3",
+                    "40": "4",
+                    "41": "5",
+                    "42": "6",
+                    "43": "7",
+                    "44": "8",
+                    "45": "9",
+                    "46": "10"
+                  },
+                  "attendence": {
+                    "37": true,
+                    "38": true,
+                    "39": true,
+                    "40": true,
+                    "41": true,
+                    "42": true,
+                    "43": true,
+                    "44": true,
+                    "45": true,
+                    "46": true
+                  },
+                  "firstOffense": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "firstDefense": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "secondOffense": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                  ],
+                  "secondDefense": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 60,
+              "teamName": "Vikings",
+              "players": [
+                {
+                  "id": 49,
+                  "firstName": "Kenzo",
+                  "lastName": "Banton",
+                  "username": "Kenzo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "1",
+                  "jerseyNumber": 49,
+                  "accountFirstName": "Adrianna",
+                  "accountLastName": "Watson"
+                },
+                {
+                  "id": 50,
+                  "firstName": "Salvatore",
+                  "lastName": "Costa Jr.",
+                  "username": "Salvatore",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "2",
+                  "jerseyNumber": 50,
+                  "accountFirstName": "Salvatore",
+                  "accountLastName": "Costa"
+                },
+                {
+                  "id": 51,
+                  "firstName": "Dallas",
+                  "lastName": "Cruz",
+                  "username": "Dallas",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "3",
+                  "jerseyNumber": 51,
+                  "accountFirstName": "Wilmary",
+                  "accountLastName": "Andujar-Cruz"
+                },
+                {
+                  "id": 52,
+                  "firstName": "Anthony",
+                  "lastName": "DiPaola",
+                  "username": "Anthony",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "4",
+                  "jerseyNumber": 52,
+                  "accountFirstName": "Anthony",
+                  "accountLastName": "Dipaola"
+                },
+                {
+                  "id": 53,
+                  "firstName": "Aiden",
+                  "lastName": "Hernandez",
+                  "username": "Aiden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "5",
+                  "jerseyNumber": 53,
+                  "accountFirstName": "Nelson",
+                  "accountLastName": "Hernandez"
+                },
+                {
+                  "id": 54,
+                  "firstName": "Camden",
+                  "lastName": "Kakas",
+                  "username": "Camden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "6",
+                  "jerseyNumber": 54,
+                  "accountFirstName": "Savannah",
+                  "accountLastName": "Kakas"
+                },
+                {
+                  "id": 55,
+                  "firstName": "Lorenzo",
+                  "lastName": "Mancuso",
+                  "username": "Lorenzo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "7",
+                  "jerseyNumber": 55,
+                  "accountFirstName": "Christina",
+                  "accountLastName": "Mancuso"
+                },
+                {
+                  "id": 56,
+                  "firstName": "Aiden",
+                  "lastName": "Medina",
+                  "username": "Aiden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "8",
+                  "jerseyNumber": 56,
+                  "accountFirstName": "Ismael",
+                  "accountLastName": "Medina"
+                },
+                {
+                  "id": 57,
+                  "firstName": "Angelo",
+                  "lastName": "Sinicropi",
+                  "username": "Angelo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "9",
+                  "jerseyNumber": 57,
+                  "accountFirstName": "Jacqueline",
+                  "accountLastName": "Loffredo-Sinicropi"
+                },
+                {
+                  "id": 58,
+                  "firstName": "Matthew",
+                  "lastName": "Steele",
+                  "username": "Matthew",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "10",
+                  "jerseyNumber": 58,
+                  "accountFirstName": "Tatiana",
+                  "accountLastName": "Rodriguez"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 59,
+                  "firstName": "Anthony",
+                  "lastName": "Dipaola",
+                  "username": "Anthony",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 59,
+                  "contactInfo": {
+                    "id": 59,
+                    "name": "Anthony Dipaola",
+                    "email": "dipaola75@gmail.com",
+                    "phone": "609-532-5665"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "orderDict": {
+                    "49": "1",
+                    "50": "2",
+                    "51": "3",
+                    "52": "4",
+                    "53": "5",
+                    "54": "6",
+                    "55": "7",
+                    "56": "8",
+                    "57": "9",
+                    "58": "10"
+                  },
+                  "attendence": {
+                    "49": true,
+                    "50": true,
+                    "51": true,
+                    "52": true,
+                    "53": true,
+                    "54": true,
+                    "55": true,
+                    "56": true,
+                    "57": true,
+                    "58": true
+                  },
+                  "firstOffense": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "firstDefense": [
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "secondOffense": [
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "secondDefense": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ]
+                }
+              ]
+            }
+          ],
+          "schedule": {
+            "schedule": [
+              {
+                "id": 61,
+                "awayTeam": 48,
+                "homeTeam": 24,
+                "round": 1,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-04-18T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 62,
+                "awayTeam": 60,
+                "homeTeam": 36,
+                "round": 1,
+                "startTime": "19:30",
+                "endTime": "20:30",
+                "date": "2025-04-17T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 63,
+                "awayTeam": 36,
+                "homeTeam": 48,
+                "round": 2,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 64,
+                "awayTeam": 24,
+                "homeTeam": 60,
+                "round": 2,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 65,
+                "awayTeam": 48,
+                "homeTeam": 60,
+                "round": 3,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  1,
+                  3,
+                  5
+                ],
+                "officialCount": 4
+              },
+              {
+                "id": 66,
+                "awayTeam": 36,
+                "homeTeam": 24,
+                "round": 3,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  8,
+                  9,
+                  10
+                ],
+                "officialCount": 3
+              },
+              {
+                "id": 67,
+                "awayTeam": 60,
+                "homeTeam": 36,
+                "round": 4,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 68,
+                "awayTeam": 24,
+                "homeTeam": 48,
+                "round": 4,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 69,
+                "awayTeam": 36,
+                "homeTeam": 48,
+                "round": 5,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-05T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 70,
+                "awayTeam": 60,
+                "homeTeam": 24,
+                "round": 5,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-05T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 71,
+                "awayTeam": 48,
+                "homeTeam": 60,
+                "round": 6,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-12T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 72,
+                "awayTeam": 24,
+                "homeTeam": 36,
+                "round": 6,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 73,
+                "awayTeam": 60,
+                "homeTeam": 36,
+                "round": 7,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 74,
+                "awayTeam": 48,
+                "homeTeam": 24,
+                "round": 7,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 75,
+                "awayTeam": 36,
+                "homeTeam": 48,
+                "round": 8,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-13T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "25": false,
+                  "26": false,
+                  "27": false,
+                  "28": false,
+                  "29": false,
+                  "30": false,
+                  "31": false,
+                  "32": false,
+                  "33": false,
+                  "34": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "37": false,
+                  "38": false,
+                  "39": false,
+                  "40": false,
+                  "41": false,
+                  "42": false,
+                  "43": false,
+                  "44": false,
+                  "45": false,
+                  "46": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 76,
+                "awayTeam": 24,
+                "homeTeam": 60,
+                "round": 8,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-13T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "11": false,
+                  "12": false,
+                  "13": false,
+                  "14": false,
+                  "15": false,
+                  "16": false,
+                  "17": false,
+                  "18": false,
+                  "19": false,
+                  "20": false,
+                  "21": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "49": false,
+                  "50": false,
+                  "51": false,
+                  "52": false,
+                  "53": false,
+                  "54": false,
+                  "55": false,
+                  "56": false,
+                  "57": false,
+                  "58": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              }
+            ]
+          }
+        },
+        "Pro": {
+          "teams": [
+            {
+              "id": 86,
+              "teamName": "Cardinals",
+              "players": [
+                {
+                  "id": 77,
+                  "firstName": "Cooper",
+                  "lastName": "Ayres",
+                  "username": "Cooper",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "1",
+                  "jerseyNumber": 77,
+                  "accountFirstName": "Islam",
+                  "accountLastName": "Elnaggar"
+                },
+                {
+                  "id": 78,
+                  "firstName": "Anastasio",
+                  "lastName": "Charlot",
+                  "username": "Anastasio",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "2",
+                  "jerseyNumber": 78,
+                  "accountFirstName": "Jean",
+                  "accountLastName": "Charlot"
+                },
+                {
+                  "id": 79,
+                  "firstName": "Justin",
+                  "lastName": "Cheadle",
+                  "username": "Justin",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "3",
+                  "jerseyNumber": 79,
+                  "accountFirstName": "Jayden",
+                  "accountLastName": "Smith"
+                },
+                {
+                  "id": 80,
+                  "firstName": "Olivia",
+                  "lastName": "Elnaggar",
+                  "username": "Olivia",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "4",
+                  "jerseyNumber": 80,
+                  "accountFirstName": "Islam",
+                  "accountLastName": "Elnaggar"
+                },
+                {
+                  "id": 81,
+                  "firstName": "Luke",
+                  "lastName": "Franicevich",
+                  "username": "Luke",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "5",
+                  "jerseyNumber": 81,
+                  "accountFirstName": "Christopher",
+                  "accountLastName": "Franicevich"
+                },
+                {
+                  "id": 82,
+                  "firstName": "John",
+                  "lastName": "Neely",
+                  "username": "John",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "6",
+                  "jerseyNumber": 82,
+                  "accountFirstName": "Shannon",
+                  "accountLastName": "Neely"
+                },
+                {
+                  "id": 83,
+                  "firstName": "Trevor",
+                  "lastName": "Walsh",
+                  "username": "Trevor",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "7",
+                  "jerseyNumber": 83,
+                  "accountFirstName": "stephanie",
+                  "accountLastName": "walsh"
+                },
+                {
+                  "id": 84,
+                  "firstName": "Mason",
+                  "lastName": "Wiebesiek",
+                  "username": "Mason",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cardinals",
+                  "draftOrder": "8",
+                  "jerseyNumber": 84,
+                  "accountFirstName": "Amy",
+                  "accountLastName": "Wiebesiek"
+                }
+              ],
+              "playerCount": 8,
+              "personnel": [
+                {
+                  "id": 85,
+                  "firstName": "Christopher",
+                  "lastName": "Franicevich",
+                  "username": "Christopher",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 85,
+                  "contactInfo": {
+                    "id": 85,
+                    "name": "Christopher Franicevich",
+                    "email": "chrislindsay6411@gmail.com",
+                    "phone": "609-203-5981"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "orderDict": {
+                    "77": "1",
+                    "78": "2",
+                    "79": "3",
+                    "80": "4",
+                    "81": "5",
+                    "82": "6",
+                    "83": "7",
+                    "84": "8"
+                  },
+                  "attendence": {
+                    "77": true,
+                    "78": true,
+                    "79": true,
+                    "80": true,
+                    "81": true,
+                    "82": true,
+                    "83": true,
+                    "84": true
+                  },
+                  "firstOffense": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81
+                  ],
+                  "firstDefense": [
+                    82,
+                    83,
+                    84
+                  ],
+                  "secondOffense": [
+                    82,
+                    83,
+                    84
+                  ],
+                  "secondDefense": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 98,
+              "teamName": "Commanders",
+              "players": [
+                {
+                  "id": 87,
+                  "firstName": "Angelo",
+                  "lastName": "Costello",
+                  "username": "Angelo",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "1",
+                  "jerseyNumber": 87,
+                  "accountFirstName": "Marissa",
+                  "accountLastName": "Esposito"
+                },
+                {
+                  "id": 88,
+                  "firstName": "Chace",
+                  "lastName": "Dorival",
+                  "username": "Chace",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "2",
+                  "jerseyNumber": 88,
+                  "accountFirstName": "Jaweia",
+                  "accountLastName": "Campbell"
+                },
+                {
+                  "id": 89,
+                  "firstName": "Aiden",
+                  "lastName": "Dunphey",
+                  "username": "Aiden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "3",
+                  "jerseyNumber": 89,
+                  "accountFirstName": "Donald",
+                  "accountLastName": "Dunphey"
+                },
+                {
+                  "id": 90,
+                  "firstName": "Brendan",
+                  "lastName": "Fisher",
+                  "username": "Brendan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "4",
+                  "jerseyNumber": 90,
+                  "accountFirstName": "Mark",
+                  "accountLastName": "Fisher"
+                },
+                {
+                  "id": 91,
+                  "firstName": "Carly",
+                  "lastName": "Fisher",
+                  "username": "Carly",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "5",
+                  "jerseyNumber": 91,
+                  "accountFirstName": "Mark",
+                  "accountLastName": "Fisher"
+                },
+                {
+                  "id": 92,
+                  "firstName": "Landon",
+                  "lastName": "Harrison",
+                  "username": "Landon",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "6",
+                  "jerseyNumber": 92,
+                  "accountFirstName": "Shane",
+                  "accountLastName": "Harrison"
+                },
+                {
+                  "id": 93,
+                  "firstName": "Joshua",
+                  "lastName": "Laume",
+                  "username": "Joshua",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "7",
+                  "jerseyNumber": 93,
+                  "accountFirstName": "Joshua",
+                  "accountLastName": "Laume"
+                },
+                {
+                  "id": 94,
+                  "firstName": "Brandon",
+                  "lastName": "Quinn",
+                  "username": "Brandon",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "8",
+                  "jerseyNumber": 94,
+                  "accountFirstName": "Brandon",
+                  "accountLastName": "Quinn"
+                },
+                {
+                  "id": 95,
+                  "firstName": "Derek",
+                  "lastName": "Quinones",
+                  "username": "Derek",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "9",
+                  "jerseyNumber": 95,
+                  "accountFirstName": "Jennifer",
+                  "accountLastName": "Quinones"
+                },
+                {
+                  "id": 96,
+                  "firstName": "Shane",
+                  "lastName": "Simpkins",
+                  "username": "Shane",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Commanders",
+                  "draftOrder": "10",
+                  "jerseyNumber": 96,
+                  "accountFirstName": "Tressa",
+                  "accountLastName": "Simpkins"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 97,
+                  "firstName": "Donald",
+                  "lastName": "Dunphey",
+                  "username": "Donald",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 97,
+                  "contactInfo": {
+                    "id": 97,
+                    "name": "Donald Dunphey",
+                    "email": "d.dunphey28@gmail.com",
+                    "phone": "732-598-7422"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "orderDict": {
+                    "87": "1",
+                    "88": "2",
+                    "89": "3",
+                    "90": "4",
+                    "91": "5",
+                    "92": "6",
+                    "93": "7",
+                    "94": "8",
+                    "95": "9",
+                    "96": "10"
+                  },
+                  "attendence": {
+                    "87": true,
+                    "88": true,
+                    "89": true,
+                    "90": true,
+                    "91": true,
+                    "92": true,
+                    "93": true,
+                    "94": true,
+                    "95": true,
+                    "96": true
+                  },
+                  "firstOffense": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91
+                  ],
+                  "firstDefense": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "secondOffense": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "secondDefense": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 110,
+              "teamName": "Cowboys",
+              "players": [
+                {
+                  "id": 99,
+                  "firstName": "Sydney",
+                  "lastName": "Calderon",
+                  "username": "Sydney",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "1",
+                  "jerseyNumber": 99,
+                  "accountFirstName": "Angela",
+                  "accountLastName": "Calderon"
+                },
+                {
+                  "id": 100,
+                  "firstName": "Veronica",
+                  "lastName": "Chapman",
+                  "username": "Veronica",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "2",
+                  "jerseyNumber": 100,
+                  "accountFirstName": "Michele",
+                  "accountLastName": "Corsetti"
+                },
+                {
+                  "id": 101,
+                  "firstName": "Victoria",
+                  "lastName": "Chapman",
+                  "username": "Victoria",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "3",
+                  "jerseyNumber": 101,
+                  "accountFirstName": "Michele",
+                  "accountLastName": "Corsetti"
+                },
+                {
+                  "id": 102,
+                  "firstName": "Evan",
+                  "lastName": "Cohen",
+                  "username": "Evan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "4",
+                  "jerseyNumber": 102,
+                  "accountFirstName": "Michele",
+                  "accountLastName": "Corsetti"
+                },
+                {
+                  "id": 103,
+                  "firstName": "Kyle",
+                  "lastName": "Kassner",
+                  "username": "Kyle",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "5",
+                  "jerseyNumber": 103,
+                  "accountFirstName": "Sherice",
+                  "accountLastName": "Soganic"
+                },
+                {
+                  "id": 104,
+                  "firstName": "Madison",
+                  "lastName": "Parsons",
+                  "username": "Madison",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "6",
+                  "jerseyNumber": 104,
+                  "accountFirstName": "Madison",
+                  "accountLastName": "Owens"
+                },
+                {
+                  "id": 105,
+                  "firstName": "Anthony",
+                  "lastName": "Shiarappa",
+                  "username": "Anthony",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "7",
+                  "jerseyNumber": 105,
+                  "accountFirstName": "Christine",
+                  "accountLastName": "Shiarappa"
+                },
+                {
+                  "id": 106,
+                  "firstName": "Avianna",
+                  "lastName": "Vallery",
+                  "username": "Avianna",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "8",
+                  "jerseyNumber": 106,
+                  "accountFirstName": "Stephen",
+                  "accountLastName": "Vallery"
+                },
+                {
+                  "id": 107,
+                  "firstName": "Valentino",
+                  "lastName": "Viruet",
+                  "username": "Valentino",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "9",
+                  "jerseyNumber": 107,
+                  "accountFirstName": "Jennifer",
+                  "accountLastName": "Seidl"
+                },
+                {
+                  "id": 108,
+                  "firstName": "Easton",
+                  "lastName": "Williams",
+                  "username": "Easton",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Cowboys",
+                  "draftOrder": "10",
+                  "jerseyNumber": 108,
+                  "accountFirstName": "Rachael",
+                  "accountLastName": "Funke-Williams"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 109,
+                  "firstName": "Ronald",
+                  "lastName": "Chapman",
+                  "username": "Ronald",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 109,
+                  "contactInfo": {
+                    "id": 109,
+                    "name": "Ronald Chapman",
+                    "email": "ronaldchapman8483@gmail.com",
+                    "phone": "347-228-9816"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "orderDict": {
+                    "99": "1",
+                    "100": "2",
+                    "101": "3",
+                    "102": "4",
+                    "103": "5",
+                    "104": "6",
+                    "105": "7",
+                    "106": "8",
+                    "107": "9",
+                    "108": "10"
+                  },
+                  "attendence": {
+                    "99": true,
+                    "100": true,
+                    "101": true,
+                    "102": true,
+                    "103": true,
+                    "104": true,
+                    "105": true,
+                    "106": true,
+                    "107": true,
+                    "108": true
+                  },
+                  "firstOffense": [
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ],
+                  "firstDefense": [
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "secondOffense": [
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "secondDefense": [
+                    99,
+                    100,
+                    101,
+                    102,
+                    103
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 122,
+              "teamName": "Giants",
+              "players": [
+                {
+                  "id": 111,
+                  "firstName": "Adam",
+                  "lastName": "Abu-Issa",
+                  "username": "Adam",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "1",
+                  "jerseyNumber": 111,
+                  "accountFirstName": "Sam",
+                  "accountLastName": "Abu-Issa"
+                },
+                {
+                  "id": 112,
+                  "firstName": "Amir",
+                  "lastName": "Abu-Issa",
+                  "username": "Amir",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "2",
+                  "jerseyNumber": 112,
+                  "accountFirstName": "Sam",
+                  "accountLastName": "Abu-Issa"
+                },
+                {
+                  "id": 113,
+                  "firstName": "Mason",
+                  "lastName": "Davila",
+                  "username": "Mason",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "3",
+                  "jerseyNumber": 113,
+                  "accountFirstName": "David",
+                  "accountLastName": "Davila"
+                },
+                {
+                  "id": 114,
+                  "firstName": "Preston",
+                  "lastName": "Hood",
+                  "username": "Preston",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "4",
+                  "jerseyNumber": 114,
+                  "accountFirstName": "Catina",
+                  "accountLastName": "Hood"
+                },
+                {
+                  "id": 115,
+                  "firstName": "Kayleb",
+                  "lastName": "Knapp",
+                  "username": "Kayleb",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "5",
+                  "jerseyNumber": 115,
+                  "accountFirstName": "Kayleb",
+                  "accountLastName": "Knapp"
+                },
+                {
+                  "id": 116,
+                  "firstName": "Brody",
+                  "lastName": "Newborn",
+                  "username": "Brody",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "6",
+                  "jerseyNumber": 116,
+                  "accountFirstName": "Melissa",
+                  "accountLastName": "Newborn"
+                },
+                {
+                  "id": 117,
+                  "firstName": "Dylan",
+                  "lastName": "Richmond",
+                  "username": "Dylan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "7",
+                  "jerseyNumber": 117,
+                  "accountFirstName": "Matthew",
+                  "accountLastName": "Richmond"
+                },
+                {
+                  "id": 118,
+                  "firstName": "Kassidy",
+                  "lastName": "Smith",
+                  "username": "Kassidy",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "8",
+                  "jerseyNumber": 118,
+                  "accountFirstName": "Keon",
+                  "accountLastName": "Smith"
+                },
+                {
+                  "id": 119,
+                  "firstName": "Gavin",
+                  "lastName": "Sweeney",
+                  "username": "Gavin",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "9",
+                  "jerseyNumber": 119,
+                  "accountFirstName": "Bill",
+                  "accountLastName": "Sweeney"
+                },
+                {
+                  "id": 120,
+                  "firstName": "Zahmier",
+                  "lastName": "Wiggins",
+                  "username": "Zahmier",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Giants",
+                  "draftOrder": "10",
+                  "jerseyNumber": 120,
+                  "accountFirstName": "Zahmier",
+                  "accountLastName": "Wiggins"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 121,
+                  "firstName": "Jason",
+                  "lastName": "Hood",
+                  "username": "Jason",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 121,
+                  "contactInfo": {
+                    "id": 121,
+                    "name": "Jason Hood",
+                    "email": "jhood@mcianj.org",
+                    "phone": "609-954-5460"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120
+                  ],
+                  "orderDict": {
+                    "111": "1",
+                    "112": "2",
+                    "113": "3",
+                    "114": "4",
+                    "115": "5",
+                    "116": "6",
+                    "117": "7",
+                    "118": "8",
+                    "119": "9",
+                    "120": "10"
+                  },
+                  "attendence": {
+                    "111": true,
+                    "112": true,
+                    "113": true,
+                    "114": true,
+                    "115": true,
+                    "116": true,
+                    "117": true,
+                    "118": true,
+                    "119": true,
+                    "120": true
+                  },
+                  "firstOffense": [
+                    111,
+                    112,
+                    113,
+                    114,
+                    115
+                  ],
+                  "firstDefense": [
+                    116,
+                    117,
+                    118,
+                    119,
+                    120
+                  ],
+                  "secondOffense": [
+                    116,
+                    117,
+                    118,
+                    119,
+                    120
+                  ],
+                  "secondDefense": [
+                    111,
+                    112,
+                    113,
+                    114,
+                    115
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 133,
+              "teamName": "Panthers",
+              "players": [
+                {
+                  "id": 123,
+                  "firstName": "Timothy Coefer",
+                  "lastName": "Coefer",
+                  "username": "Timothy Coefer",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "1",
+                  "jerseyNumber": 123,
+                  "accountFirstName": "Vashtie",
+                  "accountLastName": "Coefer"
+                },
+                {
+                  "id": 124,
+                  "firstName": "Braden",
+                  "lastName": "Elnaggar",
+                  "username": "Braden",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "2",
+                  "jerseyNumber": 124,
+                  "accountFirstName": "Islam",
+                  "accountLastName": "Elnaggar"
+                },
+                {
+                  "id": 125,
+                  "firstName": "Matthew",
+                  "lastName": "LaMendola",
+                  "username": "Matthew",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "3",
+                  "jerseyNumber": 125,
+                  "accountFirstName": "Tara",
+                  "accountLastName": "LaMendola"
+                },
+                {
+                  "id": 126,
+                  "firstName": "Ava",
+                  "lastName": "Morabito",
+                  "username": "Ava",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "4",
+                  "jerseyNumber": 126,
+                  "accountFirstName": "Eric",
+                  "accountLastName": "Morabito"
+                },
+                {
+                  "id": 127,
+                  "firstName": "Kiaja",
+                  "lastName": "Morrison",
+                  "username": "Kiaja",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "5",
+                  "jerseyNumber": 127,
+                  "accountFirstName": "Amari",
+                  "accountLastName": "Jones"
+                },
+                {
+                  "id": 128,
+                  "firstName": "Syed",
+                  "lastName": "Naqvi",
+                  "username": "Syed",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "6",
+                  "jerseyNumber": 128,
+                  "accountFirstName": "Syed",
+                  "accountLastName": "Naqvi"
+                },
+                {
+                  "id": 129,
+                  "firstName": "Yarimar",
+                  "lastName": "Quinones",
+                  "username": "Yarimar",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "7",
+                  "jerseyNumber": 129,
+                  "accountFirstName": "Yamaira",
+                  "accountLastName": "Santiago"
+                },
+                {
+                  "id": 130,
+                  "firstName": "Tyler",
+                  "lastName": "Warner",
+                  "username": "Tyler",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "8",
+                  "jerseyNumber": 130,
+                  "accountFirstName": "Samantha",
+                  "accountLastName": "Culver"
+                },
+                {
+                  "id": 131,
+                  "firstName": "Shawn",
+                  "lastName": "Willis",
+                  "username": "Shawn",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Panthers",
+                  "draftOrder": "9",
+                  "jerseyNumber": 131,
+                  "accountFirstName": "Carrie",
+                  "accountLastName": "Willis"
+                }
+              ],
+              "playerCount": 9,
+              "personnel": [
+                {
+                  "id": 132,
+                  "firstName": "Eric",
+                  "lastName": "Morabito",
+                  "username": "Eric",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 132,
+                  "contactInfo": {
+                    "id": 132,
+                    "name": "Eric Morabito",
+                    "email": "emorabito4312@yahoo.com",
+                    "phone": "732-506-1511"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131
+                  ],
+                  "orderDict": {
+                    "123": "1",
+                    "124": "2",
+                    "125": "3",
+                    "126": "4",
+                    "127": "5",
+                    "128": "6",
+                    "129": "7",
+                    "130": "8",
+                    "131": "9"
+                  },
+                  "attendence": {
+                    "123": true,
+                    "124": true,
+                    "125": true,
+                    "126": true,
+                    "127": true,
+                    "128": true,
+                    "129": true,
+                    "130": true,
+                    "131": true
+                  },
+                  "firstOffense": [
+                    123,
+                    124,
+                    125,
+                    126,
+                    127
+                  ],
+                  "firstDefense": [
+                    128,
+                    129,
+                    130,
+                    131
+                  ],
+                  "secondOffense": [
+                    128,
+                    129,
+                    130,
+                    131
+                  ],
+                  "secondDefense": [
+                    123,
+                    124,
+                    125,
+                    126,
+                    127
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 145,
+              "teamName": "Vikings",
+              "players": [
+                {
+                  "id": 134,
+                  "firstName": "Nolan",
+                  "lastName": "Amato",
+                  "username": "Nolan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "1",
+                  "jerseyNumber": 134,
+                  "accountFirstName": "Anne",
+                  "accountLastName": "Amato"
+                },
+                {
+                  "id": 135,
+                  "firstName": "Noah",
+                  "lastName": "Amaya",
+                  "username": "Noah",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "2",
+                  "jerseyNumber": 135,
+                  "accountFirstName": "Nicole",
+                  "accountLastName": "Amaya"
+                },
+                {
+                  "id": 136,
+                  "firstName": "Charley",
+                  "lastName": "Ayres",
+                  "username": "Charley",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "3",
+                  "jerseyNumber": 136,
+                  "accountFirstName": "Islam",
+                  "accountLastName": "Elnaggar"
+                },
+                {
+                  "id": 137,
+                  "firstName": "Heaven",
+                  "lastName": "Brown",
+                  "username": "Heaven",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "4",
+                  "jerseyNumber": 137,
+                  "accountFirstName": "Anthony",
+                  "accountLastName": "Brown"
+                },
+                {
+                  "id": 138,
+                  "firstName": "Caleb",
+                  "lastName": "Clugsten",
+                  "username": "Caleb",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "5",
+                  "jerseyNumber": 138,
+                  "accountFirstName": "Rebecca",
+                  "accountLastName": "Clugsten"
+                },
+                {
+                  "id": 139,
+                  "firstName": "James",
+                  "lastName": "Ford",
+                  "username": "James",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "6",
+                  "jerseyNumber": 139,
+                  "accountFirstName": "Arthur",
+                  "accountLastName": "Ford"
+                },
+                {
+                  "id": 140,
+                  "firstName": "Lucas",
+                  "lastName": "Kirchoff",
+                  "username": "Lucas",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "7",
+                  "jerseyNumber": 140,
+                  "accountFirstName": "Jesse",
+                  "accountLastName": "Kirchoff"
+                },
+                {
+                  "id": 141,
+                  "firstName": "Ryan",
+                  "lastName": "Moseley",
+                  "username": "Ryan",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "8",
+                  "jerseyNumber": 141,
+                  "accountFirstName": "Jonathan",
+                  "accountLastName": "Moseley"
+                },
+                {
+                  "id": 142,
+                  "firstName": "Liam",
+                  "lastName": "Sletvold",
+                  "username": "Liam",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "9",
+                  "jerseyNumber": 142,
+                  "accountFirstName": "Candice",
+                  "accountLastName": "Sletvold"
+                },
+                {
+                  "id": 143,
+                  "firstName": "Derek",
+                  "lastName": "Steele",
+                  "username": "Derek",
+                  "password": "password",
+                  "title": "Player",
+                  "teamName": "Vikings",
+                  "draftOrder": "10",
+                  "jerseyNumber": 143,
+                  "accountFirstName": "Tatiana",
+                  "accountLastName": "Rodriguez"
+                }
+              ],
+              "playerCount": 10,
+              "personnel": [
+                {
+                  "id": 144,
+                  "firstName": "Corey",
+                  "lastName": "Warriner",
+                  "username": "Corey",
+                  "password": "password",
+                  "title": "Coach",
+                  "teamId": 144,
+                  "contactInfo": {
+                    "id": 144,
+                    "name": "Corey Warriner",
+                    "email": "corey.warriner15@gmail.com",
+                    "phone": "609-667-4650"
+                  }
+                }
+              ],
+              "personnelCount": 1,
+              "lineups": [
+                {
+                  "name": "new lineup",
+                  "players": [
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "orderDict": {
+                    "134": "1",
+                    "135": "2",
+                    "136": "3",
+                    "137": "4",
+                    "138": "5",
+                    "139": "6",
+                    "140": "7",
+                    "141": "8",
+                    "142": "9",
+                    "143": "10"
+                  },
+                  "attendence": {
+                    "134": true,
+                    "135": true,
+                    "136": true,
+                    "137": true,
+                    "138": true,
+                    "139": true,
+                    "140": true,
+                    "141": true,
+                    "142": true,
+                    "143": true
+                  },
+                  "firstOffense": [
+                    134,
+                    135,
+                    136,
+                    137,
+                    138
+                  ],
+                  "firstDefense": [
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "secondOffense": [
+                    139,
+                    140,
+                    141,
+                    142,
+                    143
+                  ],
+                  "secondDefense": [
+                    134,
+                    135,
+                    136,
+                    137,
+                    138
+                  ]
+                }
+              ]
+            }
+          ],
+          "schedule": {
+            "schedule": [
+              {
+                "id": 146,
+                "awayTeam": 122,
+                "homeTeam": 86,
+                "round": 1,
+                "startTime": "20:30",
+                "endTime": "21:30",
+                "date": "2025-04-17T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 147,
+                "awayTeam": 110,
+                "homeTeam": 145,
+                "round": 1,
+                "startTime": "18:00",
+                "endTime": "19:00",
+                "date": "2025-04-17T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 148,
+                "awayTeam": 133,
+                "homeTeam": 98,
+                "round": 1,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-04-18T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 149,
+                "awayTeam": 145,
+                "homeTeam": 122,
+                "round": 2,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 150,
+                "awayTeam": 98,
+                "homeTeam": 110,
+                "round": 2,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 151,
+                "awayTeam": 86,
+                "homeTeam": 133,
+                "round": 2,
+                "startTime": "21:00",
+                "endTime": "22:00",
+                "date": "2025-04-25T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 152,
+                "awayTeam": 110,
+                "homeTeam": 133,
+                "round": 3,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  1,
+                  3,
+                  5
+                ],
+                "officialCount": 4
+              },
+              {
+                "id": 153,
+                "awayTeam": 122,
+                "homeTeam": 98,
+                "round": 3,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  8,
+                  9,
+                  10
+                ],
+                "officialCount": 3
+              },
+              {
+                "id": 154,
+                "awayTeam": 145,
+                "homeTeam": 86,
+                "round": 3,
+                "startTime": "21:00",
+                "endTime": "22:00",
+                "date": "2025-05-02T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [
+                  1,
+                  3,
+                  5
+                ],
+                "officialCount": 4
+              },
+              {
+                "id": 155,
+                "awayTeam": 98,
+                "homeTeam": 145,
+                "round": 4,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 156,
+                "awayTeam": 133,
+                "homeTeam": 122,
+                "round": 4,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 157,
+                "awayTeam": 86,
+                "homeTeam": 110,
+                "round": 4,
+                "startTime": "21:00",
+                "endTime": "22:00",
+                "date": "2025-05-09T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 158,
+                "awayTeam": 122,
+                "homeTeam": 110,
+                "round": 5,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-12T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 159,
+                "awayTeam": 145,
+                "homeTeam": 133,
+                "round": 5,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-05T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 160,
+                "awayTeam": 98,
+                "homeTeam": 86,
+                "round": 5,
+                "startTime": "21:00",
+                "endTime": "22:00",
+                "date": "2025-06-05T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 161,
+                "awayTeam": 133,
+                "homeTeam": 98,
+                "round": 6,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 162,
+                "awayTeam": 110,
+                "homeTeam": 145,
+                "round": 6,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 163,
+                "awayTeam": 86,
+                "homeTeam": 122,
+                "round": 6,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-05-30T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 164,
+                "awayTeam": 145,
+                "homeTeam": 122,
+                "round": 7,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 165,
+                "awayTeam": 98,
+                "homeTeam": 110,
+                "round": 7,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 166,
+                "awayTeam": 133,
+                "homeTeam": 86,
+                "round": 7,
+                "startTime": "21:00",
+                "endTime": "22:00",
+                "date": "2025-06-06T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 167,
+                "awayTeam": 110,
+                "homeTeam": 133,
+                "round": 8,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-16T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "99": false,
+                  "100": false,
+                  "101": false,
+                  "102": false,
+                  "103": false,
+                  "104": false,
+                  "105": false,
+                  "106": false,
+                  "107": false,
+                  "108": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "123": false,
+                  "124": false,
+                  "125": false,
+                  "126": false,
+                  "127": false,
+                  "128": false,
+                  "129": false,
+                  "130": false,
+                  "131": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 168,
+                "awayTeam": 122,
+                "homeTeam": 98,
+                "round": 8,
+                "startTime": "20:00",
+                "endTime": "21:00",
+                "date": "2025-06-16T04:00:00.000Z",
+                "location": "Field A",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "111": false,
+                  "112": false,
+                  "113": false,
+                  "114": false,
+                  "115": false,
+                  "116": false,
+                  "117": false,
+                  "118": false,
+                  "119": false,
+                  "120": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "87": false,
+                  "88": false,
+                  "89": false,
+                  "90": false,
+                  "91": false,
+                  "92": false,
+                  "93": false,
+                  "94": false,
+                  "95": false,
+                  "96": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              },
+              {
+                "id": 169,
+                "awayTeam": 86,
+                "homeTeam": 145,
+                "round": 8,
+                "startTime": "19:00",
+                "endTime": "20:00",
+                "date": "2025-06-16T04:00:00.000Z",
+                "location": "Field B",
+                "field": "Field 1",
+                "progress": "future",
+                "awayTeamAttendence": {
+                  "77": false,
+                  "78": false,
+                  "79": false,
+                  "80": false,
+                  "81": false,
+                  "82": false,
+                  "83": false,
+                  "84": false
+                },
+                "awayTeamLineup": null,
+                "homeTeamAttendence": {
+                  "134": false,
+                  "135": false,
+                  "136": false,
+                  "137": false,
+                  "138": false,
+                  "139": false,
+                  "140": false,
+                  "141": false,
+                  "142": false,
+                  "143": false
+                },
+                "homeTeamLineup": null,
+                "score": {
+                  "home": 0,
+                  "away": 0
+                },
+                "officials": [],
+                "officialCount": 0
+              }
+            ]
+          }
+        }
+      },
+      "officials": [
+        {
+          "id": 1,
+          "firstName": "James",
+          "lastName": "Ford",
+          "username": "James",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        },
+        {
+          "id": 2,
+          "firstName": "Bill",
+          "lastName": "Official",
+          "username": "Bill",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {}
+        },
+        {
+          "id": 3,
+          "firstName": "Daniel",
+          "lastName": "Reed",
+          "username": "Daniel",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        },
+        {
+          "id": 4,
+          "firstName": "Olivia",
+          "lastName": "Martinez",
+          "username": "Olivia",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {}
+        },
+        {
+          "id": 5,
+          "firstName": "Ethan",
+          "lastName": "Collins",
+          "username": "Ethan",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        },
+        {
+          "id": 6,
+          "firstName": "Sophia",
+          "lastName": "Hughes",
+          "username": "Sophia",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {}
+        },
+        {
+          "id": 7,
+          "firstName": "Liam",
+          "lastName": "Peterson",
+          "username": "Liam",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {}
+        },
+        {
+          "id": 8,
+          "firstName": "Billiam",
+          "lastName": "Flay",
+          "username": "Billiam",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        },
+        {
+          "id": 9,
+          "firstName": "Pete",
+          "lastName": "Griffin",
+          "username": "Pete",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        },
+        {
+          "id": 10,
+          "firstName": "Lois",
+          "lastName": "Griffin",
+          "username": "Lois",
+          "password": "password",
+          "title": "Official",
+          "contactInfo": null,
+          "availability": {
+            "1746072000000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            },
+            "1746158400000": {
+              "18": true,
+              "19": true,
+              "20": true,
+              "21": true
+            }
+          }
+        }
+      ],
+      "officialCount": 10,
+      "subscribers": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "subscriberCount": 10
+    }
+  }
+}

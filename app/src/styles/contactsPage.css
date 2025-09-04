@@ -1,0 +1,20 @@
+
+.contacts-wrapper {
+    margin-top: 12vh
+}
+
+.contact-title {
+    font-size: 2.3em;
+    margin: 1vh
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-evenly;
+    width: 100% 
+}
+
+.contact-section {
+    width: 45%
+}

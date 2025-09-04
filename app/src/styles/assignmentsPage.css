@@ -1,0 +1,130 @@
+.assignments-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 5vh
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.assignments-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 16px;
+}
+
+.game-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.game-info h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.game-info p {
+  margin: 2px 0;
+  color: #555;
+}
+
+.officials-list h3 {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.officials-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.official-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.remove-btn {
+  background: #e74c3c;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
+
+.official-select {
+  margin-top: 8px;
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center the top labels */
+  width: calc(100vw - 60px);
+}
+
+/* the big container of names */
+.name-container {
+  width: 100%;          /* span full screen width */
+  display: flex;
+  flex-wrap: wrap;      /* allow names to wrap to next line */
+  gap: 0.5rem;         /* spacing between official boxes */
+  justify-content: space-between;
+  margin: 1%;
+}
+
+/* individual official boxes */
+.name-container .confirmed,
+.name-container .unconfirmed {
+  flex: 0 1 calc(100px + 5vw);  
+  padding: 0.5rem 1rem;
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* color variants */
+.name-container .confirmed {
+  background-color: lightgreen;
+}
+
+.name-container .unconfirmed {
+  background-color: lightgrey;
+}
+
+.simple-button {
+  padding: 0.5rem 1rem;          /* top/bottom 0.5rem, left/right 1rem */
+  font-size: 1rem;               /* readable text */
+  font-weight: 500;
+  color: white;                  /* text color */
+  background-color: #4CAF50;     /* green background */
+  border: none;                  /* remove default border */
+  border-radius: 5px;            /* rounded corners */
+  cursor: pointer;               /* hand cursor on hover */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin: 1%;
+}
+
+.simple-button:hover {
+  background-color: #45a049;     /* slightly darker green on hover */
+  transform: scale(1.05);        /* subtle grow effect */
+}
+
+.simple-button:active {
+  transform: scale(0.98);        /* small shrink on click */
+}

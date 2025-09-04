@@ -5,6 +5,8 @@ const { ContactInfo } = require('../models/contactInfo');
 const { Team } = require('../models/team');
 const { Game } = require('../models/game.js')
 
+let id = 11
+
 function xlsxToTeamsList(data) {
     let lineNum = 0
 
@@ -33,7 +35,8 @@ function xlsxToTeamsList(data) {
         //each loop creates a new player
         while(Object.values(data[lineNum]).length > 1 ) {
             let info = Object.values(data[lineNum])
-            players.push(new Player(info[4],info[1],info[0],info[2],info[3],teamName))
+            players.push(new Player(id, info[4],info[1],info[0],info[2],info[3],teamName,id))
+            id++
             lineNum++
         }
 
@@ -43,11 +46,13 @@ function xlsxToTeamsList(data) {
         //each loop creates a new personnel
         while(Object.values(data[lineNum]).length > 1 ) {
             let info = Object.values(data[lineNum])
-            personnel.push(new Coach(info[2],info[3],teamName, new ContactInfo(info[2]+" "+info[3],info[5],info[4])))
+            personnel.push(new Coach(id, info[2],info[3],id, new ContactInfo(info[2]+" "+info[3],id, info[5],info[4])))
+            id++
             lineNum++
         }
 
-        myTeams.push(new Team(teamName,players,personnel))
+        myTeams.push(new Team(id,teamName,players,personnel))
+        id++
 
     }
 
@@ -67,16 +72,20 @@ function xlsxToSchedule(data, teams) {
     lineNum = 0
 
     for (let line of data) {
+        let myDate = line['Date'].split('/')
+        myDate = new Date(Number(myDate[2]), Number(myDate[0])-1, Number(myDate[1]))
         gamesList.push(new Game(
+            id,
             teamsDict[line['Away Team']],
             teamsDict[line['Home Team']],
             Number(line['Round']),
             line['Start Time'],
             line['End Time'],
-            line['Date'],
+            myDate,
             line['Location'],
             line['Field']
         ))
+        id++
     }
 
     return gamesList

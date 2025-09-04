@@ -1,9 +1,10 @@
 
 class Game {
 
-    constructor(awayTeam, homeTeam, round, startTime, endTime, date, location, field) {
-        this.awayTeam = awayTeam
-        this.homeTeam = homeTeam
+    constructor(id, awayTeam, homeTeam, round, startTime, endTime, date, location, field, officials=[]) {
+        this.id = id
+        this.awayTeam = awayTeam.id
+        this.homeTeam = homeTeam.id
         this.round = round
         this.startTime = startTime
         this.endTime = endTime
@@ -24,8 +25,8 @@ class Game {
         }, {})
         this.homeTeamLineup = null
 
-        this.score = {'home': 0, 'away': 0}
-        this.officials = []
+        this.score = {home: 0, away: 0}
+        this.officials = officials
         this.officialCount = 0
     }
 
@@ -143,14 +144,18 @@ class Game {
     }
 
     addOfficial(official) {
-        this.removeOfficial(official)
-        this.officials.push(official)
-        this.officialCount = this.officials.length
+        const index = this.officials.findIndex(o => o === official.id)
+        if (index > -1) {
+            this.officials[index] = official.id
+        } else {
+            this.officials.push(official.id)
+        }
+        this.officialCount = this.officials.length;
     }
 
     removeOfficial(official) {
         this.officials = this.officials.filter((o) => {
-            o.name != official.name
+            o.id !== official.id
         })
         this.officialCount = this.officials.length
     }

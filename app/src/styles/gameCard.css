@@ -8,7 +8,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.2s ease;
-  width: 97%;
+  width: calc(100% - 2rem);
 }
 
 .game-card.hover {
@@ -54,7 +54,7 @@
 
 .team-name {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: calc(2vw + 0.4rem);
   color: #1e1e1e;
 }
 

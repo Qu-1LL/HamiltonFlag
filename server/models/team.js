@@ -5,7 +5,8 @@ const { Lineup } = require('./lineup.js')
 
 class Team {
 
-    constructor(teamName, players, personnel, lineups = []) { 
+    constructor(id, teamName, players, personnel, lineups = []) { 
+        this.id = id
         this.teamName = teamName
         this.players = players
         this.playerCount = players.length

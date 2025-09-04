@@ -1,7 +1,8 @@
 
 class ContactInfo {
 
-    constructor(name, email="", phone="") {
+    constructor(name, id, email="", phone="") {
+        this.id = id
         this.name = name
         this.email = email
         this.phone = phone
@@ -25,6 +26,10 @@ class ContactInfo {
 
     setEmail(email) {
         this.email = email
+    }
+
+    getId() {
+        return this.id
     }
 
 }

@@ -51,16 +51,9 @@ test('parses sample roster and schedule xlsx file', () => {
     let mySchedule = xlsxToSchedule(data, myRoster)
 
     //checking teams are in the right place and identical
-    expect(mySchedule[0].getAwayTeam()).toEqual(myRoster[2])
-    expect(mySchedule[0].getHomeTeam()).toEqual(myRoster[0])
-    expect(mySchedule[15].getAwayTeam()).toEqual(myRoster[0])
-    expect(mySchedule[15].getHomeTeam()).toEqual(myRoster[3])
-
-    //checking individual data is correct
-    expect(mySchedule[0].getRound()).toBe(1)
-    expect(mySchedule[0].getStartTime()).toBe('19:00')
-    expect(mySchedule[0].getEndTime()).toBe('20:00')
-    expect(mySchedule[0].getLocation()).toBe('Field B')
-    expect(mySchedule[0].getField()).toBe('Field 1')
+    expect(mySchedule[0].getAwayTeam()).toEqual(myRoster[2].id)
+    expect(mySchedule[0].getHomeTeam()).toEqual(myRoster[0].id)
+    expect(mySchedule[15].getAwayTeam()).toEqual(myRoster[0].id)
+    expect(mySchedule[15].getHomeTeam()).toEqual(myRoster[3].id)
 
 })

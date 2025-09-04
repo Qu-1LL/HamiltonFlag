@@ -1,0 +1,100 @@
+
+
+.game-wrapper {
+  margin: 1vw;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 6vh
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+}
+
+h3 {
+  font-size: calc(0.7em + 1.5vw);
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+
+.team-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: horizontal;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.team-block {
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.1);
+  width: 30vw
+}
+
+.name-block {
+  background-color: white;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.coach-name {
+  margin-top: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.game-wrapper button {
+  padding: 0.6rem 1.4rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.game-wrapper button:hover {
+  background-color: #bbb;
+}
+
+.official-block {
+  background-color: #f0f2f5;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.official-name {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}

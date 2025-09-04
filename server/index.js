@@ -5,11 +5,18 @@ const express = require('express')
 const cors = require('cors')
 const path = require('path')
 const fs = require('fs')
+const { ContactInfo } = require('./models/contactInfo.js')
 
 const { xlsxToTeamsList, xlsxToSchedule } = require('./controllers/handleExcel.js')
+const { attemptLogin } = require('./controllers/handleLogging.js')
+const { updateAvailability, setGameOfficials, getWeeklyGames } = require('./controllers/handleOfficials.js')
+const { getOfficialById, getSchedule, getTeamById, getOfficials } = require('./controllers/handleGet.js')
+const { removeOfficialFromGame, addOfficialToGame} = require('./controllers/handleSchedule.js')
 
 const app = express()
 const port = 3000
+
+app.use(express.json())
 
 app.use(cors({
     origin: 'http://localhost:5000'
@@ -44,21 +51,141 @@ app.post('/upload-roster-xlsx', upload.single('file'), (req, res) => {
 
 app.get('/schedule', (req, res) => {
     try {
-        let filePath = path.join(__dirname, './__tests__/data/Minor_Division_Team_Roster_Report.xlsx')
-        let workbook = xlsx.read(fs.readFileSync(filePath), { type: 'buffer' })
-        let data = xlsx.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]])
-        let myRoster = xlsxToTeamsList(data)
-
-        filePath = path.join(__dirname, './__tests__/data/Minor_Regular_Season_Schedule.xlsx')
-        workbook = xlsx.read(fs.readFileSync(filePath), { type: 'buffer' })
-        data = xlsx.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]])
-        let mySchedule = xlsxToSchedule(data, myRoster)
+        let mySchedule = getSchedule()
 
         res.json({ mySchedule })
     } catch (e) {
         console.error('Error fethcing schedule: ' + e)
         res.status(500).json({ error: 'Failed to retreive schedule information'})
     }
+})
+
+app.get('/contacts', (req, res) => {
+    try {
+        let info = [ 
+            new ContactInfo('John React', 1, "johnr@smellmail.com"),
+            new ContactInfo('Emily Bobathon', 2, 'Ebob@bobworldorder.com'),
+            new ContactInfo('Gregory Games', 3, 'contact@gregsgames.com','609-203-4435') 
+        ]
+        let officials = [
+            new ContactInfo('John Official', 4, "johno@smellmail.com", '549-234-john'),
+            new ContactInfo('Bob Official', 5, 'notbobo@officials.com'),
+            new ContactInfo('Gregory McOfficials', 6, 'gregmail@gregmail.com','666-233-evil'),
+            new ContactInfo('Bill Referee', 7, "bestref@smellmail.com") 
+        ]
+        res.json({ info, officials })
+    } catch (e) {
+        console.error('Error fethcing schedule: ' + e + e.stack)
+        res.status(500).json({ error: 'Failed to retreive schedule information'})
+    }
+})
+
+app.patch('/login', (req, res) => {
+    try {
+        let myUser = attemptLogin(req.body.username, req.body.password)
+
+        if (myUser === null) {
+            res.status(404).json({ error: 'No user found with that username and password'})
+            return
+        }
+
+        res.json({'user': myUser})
+    } catch (e) {
+        console.error('Error logging in: ' + e + e.stack)
+        res.status(500).json({ error: 'Encountered an error trying to log in'})
+    }
+})
+
+app.patch('/availability', (req, res) => {
+
+    try {
+        updateAvailability(req.body.officialId, req.body.availability)
+
+        res.status(200).send('Success')
+    } catch (e) {
+        console.error('Error updating availability: ', e + e.stack)
+        res.status(500).json({ error: 'Encountered an error while updating availability'})
+    }
+
+})
+
+app.patch('/add-official', (req, res) => {
+
+    try {
+        addOfficialToGame(req.body.gameId, req.body.officialId)
+
+        res.status(200).send('Success')
+    } catch (e) {
+        console.error('Error adding official to game: ', e + e.stack)
+        res.status(500).json({ error: 'Encountered an error while adding official to game'})
+    }
+
+})
+
+app.patch('/remove-official', (req, res) => {
+
+    try {
+        removeOfficialFromGame(req.body.gameId, req.body.officialId)
+
+        res.status(200).send('Success')
+    } catch (e) {
+        console.error('Error removing official from game: ', e + e.stack)
+        res.status(500).json({ error: 'Encountered an error while removing official from game'})
+    }
+
+})
+
+app.post('/generate-official-schedule', (req, res) => {
+    try{
+        let myWeeklySchedule = setGameOfficials(new Date(2025, 3, 30))
+
+        res.json({myWeeklySchedule})
+    } catch (e) {
+        console.error('Error gneerating the weekly schedule: ' + e+ e.stack)
+        res.status(500).json({error: 'Encountered an error while trying to generate the weekly schedule'})
+    }
+})
+
+app.get('/team', (req, res) => {
+
+    try {
+        let myId = req.query.id
+
+        res.json({team : getTeamById(myId)})
+    } catch (e) {
+        console.error('Error getting team: ' + e + e.stack)
+        res.status(500).json({error: 'Encountered an error whole trying to get team info from id'})
+    }
+
+})
+
+app.get('/officials', (req,res) => {
+
+    try {
+        res.json({officials : getOfficials()})
+    } catch(e) {
+        console.error('Error getting officials list: ' + e + e.stack)
+        res.status(500).json({error: 'Encountered an error while trying to get officials list'})
+    }
+
+})
+
+app.get('/weekly-games', (req,res) => {
+
+    try {
+        let today = new Date(2025, 3, 30)
+        let daysUntilThursday = (4 - today.getDay() + 7) % 7 || 7
+        let nextThursday = new Date(today.getTime() + daysUntilThursday * 24 * 60 * 60 * 1000)
+
+        let weeklyGames = getWeeklyGames(nextThursday)
+
+        res.json({games : weeklyGames})
+
+    } catch (e) {
+        console.error('Error getting this weeks games: ' + e + e.stack)
+        res.status(500).json({ error: 'Encountered an error while trying to get this weeks games'})
+    }
+
 })
 
 app.listen(port, () => {

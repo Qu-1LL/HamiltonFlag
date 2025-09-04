@@ -1,11 +1,11 @@
 
+
 const { User } = require('./user.js')
 
-class Coach extends User {
+class Admin extends User {
 
-    constructor(id, firstName, lastName, teamId, contactInfo) {
-        super(id, firstName, lastName, 'Coach')
-        this.teamId = teamId
+    constructor(id, firstName, lastName, contactInfo = null) {
+        super(id, firstName, lastName, 'Admin')
         this.contactInfo = contactInfo
     }
 
@@ -19,4 +19,4 @@ class Coach extends User {
 
 }
 
-module.exports = { Coach }
+module.exports = { Admin }

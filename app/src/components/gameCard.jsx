@@ -16,17 +16,17 @@ export default function GameCard ({ game, onClick }) {
                 <div className="card-teams">
                     <div className={`status-bar ${game.status}`} />
                     <div className="teams">
-                        <span className="team-name">{game.homeTeam}</span>
+                        <span className="team-name">{game.homeTeam.teamName}</span>
                         <span className="vs">vs</span>
-                        <span className="team-name">{game.awayTeam}</span>
+                        <span className="team-name">{game.awayTeam.teamName}</span>
                     </div>
                 </div>
                 <div className="card-datetime">
                     <div className="card-date">
-                        <span className="date-number">{game.date}</span>
-                        <span className="date-month">{months[game.month]}</span>
+                        <span className="date-number">{game.date.date}</span>
+                        <span className="date-month">{months[game.date.month]}</span>
                     </div>
-                    <div className="card-time">{game.time}</div>
+                    <div className="card-time">{game.startTime}</div>
                 </div>
             </div>
         </div>

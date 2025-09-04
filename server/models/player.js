@@ -3,8 +3,8 @@ const { User } = require('./user.js')
 
 class Player extends User {
 
-    constructor(firstName, lastName, draftOrder, accountFirstName, accountLastName, teamName = null, jerseyNumber = null) {
-        super(firstName, lastName)
+    constructor(id, firstName, lastName, draftOrder, accountFirstName, accountLastName, teamName = null, jerseyNumber = null) {
+        super(id, firstName, lastName, 'Player')
         this.teamName = teamName
         this.draftOrder = draftOrder
         this.jerseyNumber = jerseyNumber

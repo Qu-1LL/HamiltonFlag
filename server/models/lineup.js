@@ -5,15 +5,18 @@ class Lineup {
 
     constructor(team) {
         this.name = 'new lineup'
-        this.players = [...team.getPlayers()]
-        this.attendence = this.players.reduce((team, player) => {
-            team[player.getDraftOrder()] = true
-            //draft order will function as id for now
+        this.players = []
+        this.orderDict = {}
+        team.getPlayers().map((player) => {
+            this.players.push(player.id)
+            this.orderDict[player.id] = player.draftOrder
+        })
+        this.attendence = team.getPlayers().reduce((team, player) => {
+            team[player.id] = true
             return team
         }, {})
         //creating lineups
-        this.players.sort((a, b) => a.getDraftOrder() - b.getDraftOrder());
-        console.log(this.players)
+        this.players.sort((a, b) => this.orderDict[a] - this.orderDict[b]);
         this.firstOffense = this.players.slice(0,5)
         this.firstDefense = this.players.slice(5,this.players.length)
         this.secondOffense = this.players.slice(5,this.players.length)
