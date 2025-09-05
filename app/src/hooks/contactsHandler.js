@@ -1,11 +1,11 @@
-
+const apiUrl = process.env.API_URL
 
 export const getContactInfo = async (setContacts, setOfficials) => {
     let myContacts = {}
     let myOfficials = {}
 
     try {
-        let res = await fetch('http://localhost:3000/contacts')
+        let res = await fetch(`http://${apiUrl}/contacts`)
 
         if (!res.ok) {
             throw new Error('Failed to fetch: ' + res.error)

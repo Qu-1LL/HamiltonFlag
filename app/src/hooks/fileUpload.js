@@ -1,11 +1,11 @@
 
 
-//The is roughly the code that will sex xlsx files to backend
+const apiUrl = process.env.API_URL
 
 const formData = new FormData();
 formData.append('file', yourFile); // from <input type="file" />
 
-fetch('http://localhost:3000/upload-xlsx', {
+fetch(`http://${apiUrl}/upload-xlsx`, {
     method: 'POST',
     body: formData,
 })

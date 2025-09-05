@@ -1,9 +1,10 @@
+const apiUrl = process.env.API_URL
 
 export const loginUser = async(myUsername, myPassword, setUserInfo) => {
 
     try {
         console.log(myUsername, myPassword)
-        let res = await fetch('http://localhost:3000/login',{
+        let res = await fetch(`http://${apiUrl}/login`,{
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"
