@@ -188,6 +188,8 @@ app.get('/weekly-games', (req,res) => {
 
 })
 
+const host = '0.0.0.0'
+
 app.listen(port, () => {
-  console.log(`Server listening on http://localhost:${port}`);
+  console.log(`Server listening on http://${host}:${port}`);
 });
