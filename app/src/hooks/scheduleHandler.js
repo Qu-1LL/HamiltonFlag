@@ -108,7 +108,7 @@ export const submitAvailability = async (officialId, availability) => {
 export const getOfficialsDict = async () => {
 
     try {
-        let res = await fetch(`http://${apiUrl}//officials`)
+        let res = await fetch(`http://${apiUrl}/officials`)
 
         let json = await res.json()
 
@@ -131,7 +131,7 @@ export const getOfficialsDict = async () => {
 export const getWeeklyGames = async () => {
 
     try {
-        let res = await fetch(`http://${apiUrl}//weekly-games`)
+        let res = await fetch(`http://${apiUrl}/weekly-games`)
 
         let json = await res.json()
 
@@ -149,7 +149,7 @@ export const setGameOfficials = async () => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}//generate-official-schedule`, {
+        let res = await fetch(`http://${apiUrl}/generate-official-schedule`, {
 
             method: 'POST',
             headers: {
@@ -167,7 +167,7 @@ export const removeOfficial = async (officialId, gameId) => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}//remove-official`, {
+        let res = await fetch(`http://${apiUrl}/remove-official`, {
             method: 'PATCH',
             headers: {
                 "content-Type": "application/json"
@@ -189,7 +189,7 @@ export const addOfficial = async (officialId, gameId) => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}//add-official`, {
+        let res = await fetch(`http://${apiUrl}/add-official`, {
             method: 'PATCH',
             headers: {
                 "content-Type": "application/json"
