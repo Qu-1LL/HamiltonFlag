@@ -1,6 +1,6 @@
 
 
-const apiUrl = process.env.API_URL
+const apiUrl = process.env.REACT_APP_API_URL
 
 const formData = new FormData();
 formData.append('file', yourFile); // from <input type="file" />
