@@ -14,12 +14,12 @@ const { getOfficialById, getSchedule, getTeamById, getOfficials } = require('./c
 const { removeOfficialFromGame, addOfficialToGame} = require('./controllers/handleSchedule.js')
 
 const app = express()
-const port =5000
+const port = 5000
 
 app.use(express.json())
 
 app.use(cors({
-    origin: `http://localhost:${port}`
+    origin: `http://100.28.121.224/${port}`
 }))
 
 const upload = multer({ storage: multer.memoryStorage() })
