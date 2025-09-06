@@ -14,12 +14,12 @@ const { getOfficialById, getSchedule, getTeamById, getOfficials } = require('./c
 const { removeOfficialFromGame, addOfficialToGame} = require('./controllers/handleSchedule.js')
 
 const app = express()
-const port = 3000
+const port = 5000
 
 app.use(express.json())
 
 app.use(cors({
-    origin: `https://HamiltonFlagFootball:${port}`
+    origin: `http://100.28.121.224/${port}`
 }))
 
 const upload = multer({ storage: multer.memoryStorage() })
@@ -191,5 +191,5 @@ app.get('/weekly-games', (req,res) => {
 const host = '0.0.0.0'
 
 app.listen(port, () => {
-  console.log(`Server listening on http://${host}:${port}`);
+  console.log(`Server listening on http://${host}:3000`);
 });
