@@ -5,7 +5,7 @@ export const getContactInfo = async (setContacts, setOfficials) => {
     let myOfficials = {}
 
     try {
-        let res = await fetch(`http://${apiUrl}/contacts`)
+        let res = await fetch(`${apiUrl}/contacts`)
 
         if (!res.ok) {
             throw new Error('Failed to fetch: ' + res.error)

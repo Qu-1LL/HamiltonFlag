@@ -4,7 +4,7 @@ export const loginUser = async(myUsername, myPassword, setUserInfo) => {
 
     try {
         console.log(myUsername, myPassword)
-        let res = await fetch(`http://${apiUrl}/login`,{
+        let res = await fetch(`${apiUrl}/login`,{
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"

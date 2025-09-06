@@ -5,7 +5,7 @@ const apiUrl = process.env.REACT_APP_API_URL
 const formData = new FormData();
 formData.append('file', yourFile); // from <input type="file" />
 
-fetch(`http://${apiUrl}/upload-xlsx`, {
+fetch(`${apiUrl}/upload-xlsx`, {
     method: 'POST',
     body: formData,
 })

@@ -26,7 +26,7 @@ export const loadGameData = async (setMyGames, debug = false) =>  {
     let myGames = {}
 
     try {
-        let res = await fetch(`http://${apiUrl}/schedule`)
+        let res = await fetch(`${apiUrl}/schedule`)
 
         if (!res.ok) {
             throw new Error('Failed to fetch: '+res.error)
@@ -56,12 +56,12 @@ export const loadGameData = async (setMyGames, debug = false) =>  {
             myItem.endTime = convertMilitary(myItem.endTime)
 
             let homeId = myItem['homeTeam']
-            let res = await fetch(`http://${apiUrl}/team?id=` + homeId)
+            let res = await fetch(`${apiUrl}/team?id=` + homeId)
             let json = await res.json()
             myItem['homeTeam'] = json.team
 
             let awayId = myItem['awayTeam']
-            res = await fetch(`http://${apiUrl}/team?id=` + awayId)
+            res = await fetch(`${apiUrl}/team?id=` + awayId)
             json = await res.json()
             myItem['awayTeam'] = json.team
 
@@ -81,7 +81,7 @@ export const loadGameData = async (setMyGames, debug = false) =>  {
 export const submitAvailability = async (officialId, availability) => {
 
     try {
-        let res = await fetch(`http://${apiUrl}/availability`, {
+        let res = await fetch(`${apiUrl}/availability`, {
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"
@@ -108,7 +108,7 @@ export const submitAvailability = async (officialId, availability) => {
 export const getOfficialsDict = async () => {
 
     try {
-        let res = await fetch(`http://${apiUrl}/officials`)
+        let res = await fetch(`${apiUrl}/officials`)
 
         let json = await res.json()
 
@@ -131,7 +131,7 @@ export const getOfficialsDict = async () => {
 export const getWeeklyGames = async () => {
 
     try {
-        let res = await fetch(`http://${apiUrl}/weekly-games`)
+        let res = await fetch(`${apiUrl}/weekly-games`)
 
         let json = await res.json()
 
@@ -149,7 +149,7 @@ export const setGameOfficials = async () => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}/generate-official-schedule`, {
+        let res = await fetch(`${apiUrl}/generate-official-schedule`, {
 
             method: 'POST',
             headers: {
@@ -167,7 +167,7 @@ export const removeOfficial = async (officialId, gameId) => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}/remove-official`, {
+        let res = await fetch(`${apiUrl}/remove-official`, {
             method: 'PATCH',
             headers: {
                 "content-Type": "application/json"
@@ -189,7 +189,7 @@ export const addOfficial = async (officialId, gameId) => {
 
     try {
 
-        let res = await fetch(`http://${apiUrl}/add-official`, {
+        let res = await fetch(`${apiUrl}/add-official`, {
             method: 'PATCH',
             headers: {
                 "content-Type": "application/json"
