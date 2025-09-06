@@ -8,8 +8,8 @@ const PORT = 5000;
 app.use(express.static(path.join(__dirname, 'build')));
 
 // Redirect all routes to index.html (for React Router)
-app.get('*', (req, res) => {
-  res.sendFile(path.join(dirName, 'build', 'index.html'));
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 // Listen on all interfaces
