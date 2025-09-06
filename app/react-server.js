@@ -1,16 +1,11 @@
 const express = require('express');
 const path = require('path');
-const { fileURLToPath } = require('url');
 
 const app = express();
 const PORT = 5000;
 
-// Fix dirName for ES modules
-const fmyFile = fileURLToPath(import.meta.url);
-const dirName = path.dirname(fmyFile);
-
 // Serve static React files
-app.use(express.static(path.join(dirName, 'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // Redirect all routes to index.html (for React Router)
 app.get('*', (req, res) => {
