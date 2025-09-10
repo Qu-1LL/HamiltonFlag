@@ -18,8 +18,19 @@ const port = 5000
 
 app.use(express.json())
 
-app.use(cors({
-    origin: `http://100.28.121.224/${port}`
+const allowedOrigins = [
+    `http://100.28.121.224:${port}`,  // your VM
+    `http://localhost:${port}`,          // React dev server
+]
+
+    app.use(cors({
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true)
+        } else {
+            callback(new Error("Not allowed by CORS"))
+        }
+    }
 }))
 
 const upload = multer({ storage: multer.memoryStorage() })
