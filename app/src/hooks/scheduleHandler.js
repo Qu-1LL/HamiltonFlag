@@ -24,6 +24,7 @@ function sortGamesByDate(games) {
 export const loadGameData = async (setMyGames, debug = false) =>  {
 
     console.log("calling schedule endpoint")
+    console.log("apiUrl: ", apiUrl)
     let myGames = {}
 
     try {
