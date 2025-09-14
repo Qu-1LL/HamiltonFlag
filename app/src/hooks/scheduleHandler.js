@@ -72,7 +72,7 @@ export const loadGameData = async (setMyGames, debug = false) =>  {
         myGames = mySchedule
     } catch (e) {
         //setError(e)
-        console.log('Failed to fetch: '+ e + e.stack)
+        console.log('Failed to fetch:pm2 l '+ e + e.stack)
     } finally {
         setMyGames(myGames)
     }
