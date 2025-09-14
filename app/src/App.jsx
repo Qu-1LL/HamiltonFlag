@@ -15,6 +15,8 @@ import AssignmentsPage from './pages/assignmentsPage.jsx'
 
 function App() {
 
+    console.log("app is open")
+
     const [userInfo, setUserInfo] = useState({
         name: "Not Signed In",
         title: "",
