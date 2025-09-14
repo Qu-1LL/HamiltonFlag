@@ -61,6 +61,7 @@ app.post('/upload-roster-xlsx', upload.single('file'), (req, res) => {
 })
 
 app.get('/schedule', (req, res) => {
+    console.log("schedule endpoint reached")
     try {
         let mySchedule = getSchedule()
 

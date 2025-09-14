@@ -23,6 +23,7 @@ function sortGamesByDate(games) {
 
 export const loadGameData = async (setMyGames, debug = false) =>  {
 
+    console.log("calling schedule endpoint")
     let myGames = {}
 
     try {
