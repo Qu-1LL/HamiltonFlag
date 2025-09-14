@@ -14,7 +14,7 @@ const { getOfficialById, getSchedule, getTeamById, getOfficials } = require('./c
 const { removeOfficialFromGame, addOfficialToGame} = require('./controllers/handleSchedule.js')
 
 const app = express()
-const port = 5000
+var port = 5000
 
 app.use(express.json())
 
@@ -199,6 +199,7 @@ app.get('/weekly-games', (req,res) => {
 
 })
 
+port = 3000
 const host = '0.0.0.0'
 
 app.listen(port, () => {
