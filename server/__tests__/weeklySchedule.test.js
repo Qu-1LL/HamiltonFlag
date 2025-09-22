@@ -48,11 +48,11 @@ test('creates 7 officials and their availability', () => {
 
     let rookieDivision = new Division(myRoster, new Schedule(mySchedule))
 
-    let upcomingThurs = new Date(2025, 4, 1)
+    // let upcomingThurs = new Date(2025, 4, 1)
 
     let season = new Season({"Rookie":rookieDivision, "Minor":minorDivision, "Pro": proDivision}, getOfficials(upcomingThurs))
 
-    season.assignOfficials(upcomingThurs)
+    // season.assignOfficials(upcomingThurs)
 
     let myGames = []
 
@@ -71,18 +71,18 @@ test('creates 7 officials and their availability', () => {
     expect(myGames[5].length).toEqual(3)
     expect(myGames[6].length).toEqual(4)
 
-    // let myPath = path.join(__dirname,'..', 'data.json')
+    let myPath = path.join(__dirname,'..', 'data.json')
 
-    // let seasonData = { 
-    //     'Admin': [
-    //         new Admin(0, 'Arthur', 'Ford')
-    //     ],
-    //     'seasons': {
-    //         "SPRING 25" : season
-    //     }
-    // }
+    let seasonData = { 
+        'Admin': [
+            new Admin(0, 'Arthur', 'Ford')
+        ],
+        'seasons': {
+            "SPRING 25" : season
+        }
+    }
 
-    // fs.writeFileSync(myPath, JSON.stringify(seasonData, null, 2), 'utf8')
+    fs.writeFileSync(myPath, JSON.stringify(seasonData, null, 2), 'utf8')
 
 
 })

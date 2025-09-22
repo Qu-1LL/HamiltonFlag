@@ -18,9 +18,12 @@ var port = 5000
 
 app.use(express.json())
 
+const today = new Date(2025, 4 , 2)
+
 const allowedOrigins = [
-    `http://100.28.121.224:${port}`,  // your VM
-    `http://localhost:${port}`,          // React dev server
+    `http://100.28.121.224:${port}`,  // VM
+    `http://localhost:${port}`, 
+    'http://localhost:3001'         
 ]
 
     app.use(cors({
@@ -185,7 +188,6 @@ app.get('/officials', (req,res) => {
 app.get('/weekly-games', (req,res) => {
 
     try {
-        let today = new Date(2025, 3, 30)
         let daysUntilThursday = (4 - today.getDay() + 7) % 7 || 7
         let nextThursday = new Date(today.getTime() + daysUntilThursday * 24 * 60 * 60 * 1000)
 
@@ -200,8 +202,16 @@ app.get('/weekly-games', (req,res) => {
 
 })
 
+// app.put('/update-attendence', (req, res) => {
+
+//     try {
+//         let 
+//     }
+
+// })
+
 port = 3000
-const host = '0.0.0.0'
+const host = 'localhost'
 
 app.listen(port, () => {
   console.log(`Server listening on http://${host}:3000`);
